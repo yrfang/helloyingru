@@ -10,27 +10,23 @@
 
 * {
   font-family: 'Merriweather', serif, 微軟正黑體;
-  // border: solid 1px black;
+  // border: solid 1px black !important;
 }
 
-.asideWrapper {
-  overflow-x: hidden;
+html, body {
   position: relative;
-  left: 0px;
-
-  // header {
-  //   padding: 20px 10px;
-  // }
+  overflow-x: hidden;
 }
 
-nav#side-nav {
+#side-nav {
   color: #000;
   float: left;
   position: fixed;
   top: 0px;
   bottom: 0px;
+  height: 100vh;
   width: 210px;
-  // z-index: 100;
+  z-index: 100;
   border-right: solid 1px rgba(#888,0.2);
   transition: 0.8s ease-in-out;
 
@@ -39,9 +35,9 @@ nav#side-nav {
     background-color: #262626;
     width: 40px;
     height: 40px;
-    position: relative;
+    position: absolute;
     top: 0px;
-    right: -210px;
+    right: -40px;
 
     @media screen and (min-width: 768px) {
       display: none;
@@ -73,12 +69,12 @@ nav#side-nav {
   a {
     color: #000;
     text-decoration: none;
-    transition: 0.5s;
   }
 
   .title {
     font-size: 24px;
     font-weight: 900;
+    transition: 0.3s;
   }
 
   .infoIcon {
@@ -88,7 +84,7 @@ nav#side-nav {
     margin-right: auto;
     background-color: #333;
     position: relative;
-    transition: 0.5s;
+    transition: 0.3s;
 
     &:hover {
       .fa {
@@ -104,7 +100,6 @@ nav#side-nav {
       width: 30px;
       height: initial;
       background-color: #fff;
-      // transition: -0.2s;
     }
   }
 
@@ -112,6 +107,7 @@ nav#side-nav {
     font-size: 14px;
     letter-spacing: 1.5px;
     margin-top: 15px;
+    transition: 0.3s;
   }
 
   &:hover {
@@ -127,15 +123,92 @@ nav#side-nav {
 }
 
 #side-nav.open {
-  left: 0px;
+  transform: translateX(0%);
 }
 
+
+// --------content------------
+#content {
+  position: relative;
+  transition: 0.8s ease-in-out;
+  background-color: #fff;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+
+// --------section-setting------------
+section {
+  width: 100%;
+
+  .heading {
+    text-align: center;
+
+    h2 {
+      font-size: 32px;
+      font-weight: 900;
+      margin-bottom: 15px;
+    }
+    h6 {
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 1px;
+    }
+  }
+}
+
+// --------section-about------------
+@import "about.scss";
+
+
+
+
+
+
+
+
+//-------------------------------------
 @media screen and (max-width: 768px) {
   #side-nav {
-    left: -210px;
+    transform: translateX(-100%);
   }
 
   #menu_toggle {
     display: block;
+  }
+
+  .screenCover {
+    display: none;
+  }
+}
+
+
+
+//----------------mobile---------------------
+@media screen and (max-width: 480px) {
+  section {
+    width: 100%;
+
+    .heading {
+      text-align: center;
+
+      h2 {
+        font-size: 28px;
+        font-weight: 900;
+        margin-bottom: 15px;
+      }
+      h6 {
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #content {
+    width: calc(100vw - 210px);
+    transform: translateX(210px);
   }
 }
