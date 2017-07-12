@@ -1,18 +1,16 @@
 const menuToggle = document.getElementById("menu_toggle");
+const toggle = document.getElementById("toggle");
 const sideNav = document.getElementById("side-nav");
 
-// function displayToggle(e) {
-//   if (e.classNmae !== 'menu_toggle') return;
-//   e.preventDefault();
-//   sideNav.style.left = "0px";
-// }
-//
-// menuToggle.addEventListener('click', displayToggle);
-
 menuToggle.addEventListener('click', function(e){
-  // if (e.target.id != 'menu_toggle') return;
+  if (e.target.classList.contains('fa-bars')) {
+    // sideNav.classList.toggle('open');
+    toggle.classList.remove('fa-bars');
+    toggle.classList.add('fa-times');
+  } else {
+    toggle.classList.remove('fa-times');
+    toggle.classList.add('fa-bars');
+  }
 
-  menuToggle.classList.toggle('fa fa-times');
   sideNav.classList.toggle('open');
-
 });

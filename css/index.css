@@ -98,7 +98,6 @@ nav#side-nav #menu_toggle {
   background-color: #262626;
   width: 40px;
   height: 40px;
-  padding: 10px 8px;
   position: relative;
   top: 0px;
   right: -210px;
@@ -109,48 +108,42 @@ nav#side-nav #menu_toggle {
     display: none;
   }
 }
-/* line 51, ../scss/index.scss */
+/* line 50, ../scss/index.scss */
 nav#side-nav #menu_toggle .fa {
   color: #fff;
   font-size: 24px;
-}
-/* line 56, ../scss/index.scss */
-nav#side-nav #menu_toggle .line {
-  width: 25px;
-  height: 1px;
-  margin-bottom: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fff;
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-/* line 68, ../scss/index.scss */
+/* line 61, ../scss/index.scss */
 #side-nav ul {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 74, ../scss/index.scss */
+/* line 67, ../scss/index.scss */
 #side-nav li {
   text-align: center;
   line-height: 2;
   list-style: none;
   margin-bottom: 30px;
 }
-/* line 80, ../scss/index.scss */
+/* line 73, ../scss/index.scss */
 #side-nav li a {
   color: #000;
   text-decoration: none;
   transition: 0.5s;
 }
-/* line 86, ../scss/index.scss */
+/* line 79, ../scss/index.scss */
 #side-nav li .title {
   font-size: 24px;
   font-weight: 900;
 }
-/* line 91, ../scss/index.scss */
+/* line 84, ../scss/index.scss */
 #side-nav li .infoIcon {
   width: 120px;
   height: 1px;
@@ -160,11 +153,11 @@ nav#side-nav #menu_toggle .line {
   position: relative;
   transition: 0.5s;
 }
-/* line 101, ../scss/index.scss */
+/* line 94, ../scss/index.scss */
 #side-nav li .infoIcon:hover .fa {
   color: #ffb347;
 }
-/* line 106, ../scss/index.scss */
+/* line 99, ../scss/index.scss */
 #side-nav li .infoIcon .fa {
   position: absolute;
   top: -5px;
@@ -174,34 +167,34 @@ nav#side-nav #menu_toggle .line {
   height: initial;
   background-color: #fff;
 }
-/* line 118, ../scss/index.scss */
+/* line 111, ../scss/index.scss */
 #side-nav li p {
   font-size: 14px;
   letter-spacing: 1.5px;
   margin-top: 15px;
 }
-/* line 125, ../scss/index.scss */
+/* line 118, ../scss/index.scss */
 #side-nav li:hover a {
   color: #ffb347;
   text-decoration: none;
 }
-/* line 130, ../scss/index.scss */
+/* line 123, ../scss/index.scss */
 #side-nav li:hover .infoIcon {
   background-color: #ffb347;
 }
 
-/* line 136, ../scss/index.scss */
+/* line 129, ../scss/index.scss */
 #side-nav.open {
   left: 0px;
 }
 
 @media screen and (max-width: 768px) {
-  /* line 141, ../scss/index.scss */
+  /* line 134, ../scss/index.scss */
   #side-nav {
     left: -210px;
   }
 
-  /* line 145, ../scss/index.scss */
+  /* line 138, ../scss/index.scss */
   #menu_toggle {
     display: block;
   }

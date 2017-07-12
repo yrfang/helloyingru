@@ -39,7 +39,6 @@ nav#side-nav {
     background-color: #262626;
     width: 40px;
     height: 40px;
-    padding: 10px 8px;
     position: relative;
     top: 0px;
     right: -210px;
@@ -51,16 +50,10 @@ nav#side-nav {
     .fa {
       color: #fff;
       font-size: 24px;
-    }
-
-    .line {
-      width: 25px;
-      height: 1px;
-      margin-bottom: 5px;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: #fff;
-      position: relative;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
     }
   }
 }
