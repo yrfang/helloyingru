@@ -65,8 +65,8 @@ a:link, a:visited, a:hover {
 //---------------introduction-section---------------
 .introduction {
   margin-top: 20px;
-  // padding-left: 10px;
-  // padding-right: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
 
   p {
     font-size: 16px;
@@ -80,7 +80,6 @@ a:link, a:visited, a:hover {
 
 //----------------mobile---------------------
 @media screen and (max-width: 480px) {
-
   .iconContainer {
     width: 100px;
     height: 120px;
@@ -106,6 +105,12 @@ a:link, a:visited, a:hover {
     h6.sub__title {
       font-size: 10px;
     }
+  }
+
+  .introduction {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 

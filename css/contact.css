@@ -1,0 +1,135 @@
+/* line 1, ../scss/contact.scss */
+section#section_contact {
+  position: relative;
+  margin-bottom: 30vh;
+}
+
+/* line 6, ../scss/contact.scss */
+.section__row {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* line 11, ../scss/contact.scss */
+.contact {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+/* line 15, ../scss/contact.scss */
+.contact p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+/* line 20, ../scss/contact.scss */
+.contact span.fa {
+  margin-right: 10px;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgba(255, 204, 51, 0.5);
+  color: #333;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+/* line 31, ../scss/contact.scss */
+.contact span.fa:hover {
+  background-color: #ffcc33;
+  color: #000;
+  animation: hoverNameProject 0.3s;
+}
+
+/* line 39, ../scss/contact.scss */
+#contact__form {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-left: -40px;
+}
+/* line 45, ../scss/contact.scss */
+#contact__form input {
+  width: 100%;
+  border: none;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.3);
+  height: 30px;
+  margin-bottom: 10px;
+}
+/* line 53, ../scss/contact.scss */
+#contact__form input:focus {
+  outline: 0;
+  border-bottom: solid 2px #ffcc33;
+}
+/* line 58, ../scss/contact.scss */
+#contact__form #message:focus {
+  height: 150px;
+}
+/* line 63, ../scss/contact.scss */
+#contact__form #send {
+  background-color: rgba(255, 204, 51, 0.5);
+  color: #333;
+  padding: 10px 8px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+/* line 72, ../scss/contact.scss */
+#contact__form #send:hover {
+  background-color: #ffb347;
+  color: #fff;
+}
+/* line 77, ../scss/contact.scss */
+#contact__form #send:focus {
+  outline: none;
+}
+
+@keyframes hoverNameProject {
+  0% {
+    opacity: 0;
+    background-color: #ffcc33;
+  }
+  25% {
+    opacity: 0.2;
+    background-color: #ffcc33;
+  }
+  50% {
+    opacity: 0.5;
+    background-color: #ffcc33;
+  }
+  75% {
+    opacity: 0.8;
+    background-color: #ffb347;
+  }
+  100% {
+    opacity: 1;
+    background-color: #ffb347;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 95, ../scss/contact.scss */
+  .contact {
+    margin-bottom: 30px;
+  }
+
+  /* line 99, ../scss/contact.scss */
+  #contact__form {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 844px) {
+  /* line 108, ../scss/contact.scss */
+  .contact {
+    margin-bottom: 30px;
+  }
+
+  /* line 112, ../scss/contact.scss */
+  #contact__form {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 119, ../scss/contact.scss */
+  .contact {
+    padding-left: 40px;
+  }
+}

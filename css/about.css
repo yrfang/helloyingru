@@ -68,6 +68,8 @@ a:link, a:visited, a:hover {
 /* line 66, ../scss/about.scss */
 .introduction {
   margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 /* line 71, ../scss/about.scss */
 .introduction p {
@@ -79,40 +81,47 @@ a:link, a:visited, a:hover {
 }
 
 @media screen and (max-width: 480px) {
-  /* line 84, ../scss/about.scss */
+  /* line 83, ../scss/about.scss */
   .iconContainer {
     width: 100px;
     height: 120px;
     padding: 10px 5px;
   }
-  /* line 89, ../scss/about.scss */
+  /* line 88, ../scss/about.scss */
   .iconContainer.left {
     margin-right: 0px;
   }
-  /* line 93, ../scss/about.scss */
+  /* line 92, ../scss/about.scss */
   .iconContainer.right {
     margin-left: 0px;
   }
-  /* line 97, ../scss/about.scss */
+  /* line 96, ../scss/about.scss */
   .iconContainer .imgIcon {
     width: 40px;
     height: 50px;
   }
-  /* line 102, ../scss/about.scss */
+  /* line 101, ../scss/about.scss */
   .iconContainer h4.title {
     font-size: 22px;
   }
-  /* line 106, ../scss/about.scss */
+  /* line 105, ../scss/about.scss */
   .iconContainer h6.sub__title {
     font-size: 10px;
   }
+
+  /* line 110, ../scss/about.scss */
+  .introduction {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media screen and (min-width: 480px) {
-  /* line 116, ../scss/about.scss */
+  /* line 121, ../scss/about.scss */
   .iconContainer.left {
     margin-right: 20px;
   }
-  /* line 120, ../scss/about.scss */
+  /* line 125, ../scss/about.scss */
   .iconContainer.right {
     margin-left: 20px;
   }

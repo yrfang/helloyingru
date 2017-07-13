@@ -13,6 +13,11 @@
   // border: solid 1px black !important;
 }
 
+::selection {
+  background-color: #ffcc33;
+  color: #fff;
+}
+
 html, body {
   position: relative;
   overflow-x: hidden;
@@ -74,7 +79,7 @@ html, body {
   .title {
     font-size: 24px;
     font-weight: 900;
-    transition: 0.3s;
+    transition: 0.2s;
   }
 
   .infoIcon {
@@ -84,7 +89,7 @@ html, body {
     margin-right: auto;
     background-color: #333;
     position: relative;
-    transition: 0.3s;
+    transition: 0.2s;
 
     &:hover {
       .fa {
@@ -107,7 +112,7 @@ html, body {
     font-size: 14px;
     letter-spacing: 1.5px;
     margin-top: 15px;
-    transition: 0.3s;
+    transition: 0.2s;
   }
 
   &:hover {
@@ -135,7 +140,7 @@ html, body {
   overflow-y: hidden;
   overflow-x: hidden;
   padding-left: 20px;
-  padding-right: 20px;
+  padding-right: 25px;
 }
 
 
@@ -163,6 +168,16 @@ section {
 }
 
 
+footer {
+  margin-bottom: 20px;
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+
+
 
 // --------section-about------------
 @import "about.scss";
@@ -171,6 +186,11 @@ section {
 
 // --------section-about------------
 @import "work.scss";
+
+
+
+// --------section-about------------
+@import "contact.scss";
 
 
 

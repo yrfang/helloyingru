@@ -1,0 +1,122 @@
+section#section_contact {
+  position: relative;
+  margin-bottom: 30vh;
+}
+
+.section__row {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.contact {
+  margin-top: 10px;
+  padding-left: 20px;
+
+  p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  span.fa {
+    margin-right: 10px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgba(#ffcc33, 0.5);
+    color: #333;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    &:hover {
+      background-color: #ffcc33;
+      color: #000;
+      animation: hoverNameProject 0.3s;
+    }
+  }
+}
+
+#contact__form {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  margin-left: -40px;
+
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: solid 2px rgba(#000, 0.3);
+    height: 30px;
+    margin-bottom: 10px;
+  }
+
+  input:focus {
+    outline: 0;
+    border-bottom: solid 2px #ffcc33;
+  }
+
+  #message:focus {
+    // border-bottom: solid 2px red;
+    height: 150px;
+  }
+
+  #send {
+    background-color: rgba(#ffcc33, 0.5);
+    color: #333;
+    padding: 10px 8px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    &:hover {
+      background-color: #ffb347;
+      color: #fff;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+@keyframes hoverNameProject {
+  0% {opacity: 0; background-color: #ffcc33;};
+  25% {opacity: 0.2; background-color: #ffcc33;}
+  50% {opacity: 0.5; background-color: #ffcc33;}
+  75% {opacity: 0.8; background-color: #ffb347;}
+  100% {opacity: 1; background-color: #ffb347;}
+}
+
+
+
+//---------------mobile---------------
+@media screen and (max-width: 480px) {
+  .contact {
+    margin-bottom: 30px;
+  }
+
+  #contact__form {
+    margin-left: 0px;
+  }
+}
+
+
+
+//-------------screen-----------------
+@media screen and (max-width: 844px) {
+  .contact {
+    margin-bottom: 30px;
+  }
+
+  #contact__form {
+    margin-left: 0px;
+  }
+}
+
+
+@media (min-width: 992px) {
+  .contact {
+    padding-left: 40px;
+  }
+}

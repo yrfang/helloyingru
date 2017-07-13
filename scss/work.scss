@@ -1,5 +1,9 @@
 section#section_work {
   position: relative;
+
+  .heading {
+    margin-bottom: 30px;
+  }
 }
 
 .section__row {
@@ -15,10 +19,10 @@ section#section_work {
 .project {
   width: calc(100% - 10px);
   height: 200px;
-  // filter: grayscale(1.5);
   opacity: 1;
   transition: 0.5s;
   position: relative;
+  z-index: 0;
 
   &:before {
     content: "";
@@ -58,7 +62,7 @@ section#section_work {
       animation: hoverBorderProject 0.5s;
     }
     .project__name {
-      background-color: rgba(#ffcc33, 0.8);
+      background-color: #ffcc33;
       color: #fff;
       box-shadow: 1px 1px 3px rgba(#000,0.2);
       animation: hoverNameProject 0.5s;
@@ -66,15 +70,15 @@ section#section_work {
   }
 
   .project__name {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: bold;
     color: #fff;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 5px 8px;
-    width: 150px;
+    padding: 5px;
+    width: 90px;
     height: initial;
     line-height: 25px;
     text-align: center;
@@ -131,5 +135,15 @@ section#section_work {
     width: 100%;
     height: 120px;
     margin-bottom: 10px;
+
+    &:before {
+      opacity: 0.5;
+      filter: grayscale(0.5);
+    }
+
+    .project__name {
+      font-size: 18px;
+      background-color: rgba(#ffcc33, 0.8);
+    }
   }
 }
