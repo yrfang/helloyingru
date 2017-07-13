@@ -134,6 +134,8 @@ html, body {
   background-color: #fff;
   overflow-y: hidden;
   overflow-x: hidden;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
@@ -185,11 +187,6 @@ section {
     display: block;
   }
 
-  section {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .screenCover {
     display: none;
   }
@@ -197,21 +194,8 @@ section {
 
 
 @media screen and (max-width: 992px) {
-  section {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
   .screenCover {
     display: none;
-  }
-}
-
-
-@media screen and (max-width: 1200px) {
-  section {
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
 
