@@ -1,6 +1,5 @@
 //section_about
 section#section_about {
-  // padding: 70px 30px;
   position: relative;
 }
 
@@ -9,9 +8,6 @@ section#section_about {
   display: block;
 
   .coverPhoto {
-    // margin-left: -30px;
-    // margin-right: -30px;
-    // margin-top: -70px;
     width: 100%;
     height: 400px;
     background-image: url("https://lh3.googleusercontent.com/dGA3b6-CXfHV1eKxQ8rO6Si_SSq6QmH9AlvcdMcCOyH1vXkpUtYId0TGjD11zbPz8Yk0DfMV=s640-h400-e365");
@@ -20,14 +16,14 @@ section#section_about {
 }
 
 .heading {
-  padding: 60px 10px;
+  padding: 150px 30px 40px 30px;
 }
 
 
 //---------------resume-section---------------
 .resume {
-  margin-top: 20px;
   margin-bottom: 20px;
+  padding: 30px 40px;
 }
 
 a:link, a:visited, a:hover {
@@ -70,7 +66,9 @@ a:link, a:visited, a:hover {
 //---------------introduction-section---------------
 .introduction {
   margin-top: 20px;
-  margin-bottom: 20px;
+  // margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 
   p {
     font-size: 16px;
@@ -78,8 +76,8 @@ a:link, a:visited, a:hover {
     line-height: 20px;
     margin-bottom: 30px;
     text-align: justify;
-    padding-left: 30px;
-    padding-right: 30px;
+    // padding-left: 30px;
+    // padding-right: 30px;
   }
 }
 
@@ -89,7 +87,7 @@ a:link, a:visited, a:hover {
 
   .iconContainer {
     width: 100px;
-    height: 130px;
+    height: 120px;
     padding: 10px 5px;
 
     &.left {
