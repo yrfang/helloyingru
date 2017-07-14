@@ -74,12 +74,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-family: 'Merriweather', serif, 微軟正黑體;
 }
 
-/* line 16, ../scss/index.scss */
-::selection {
-  background-color: #ffcc33;
-  color: #fff;
-}
-
 /* line 21, ../scss/index.scss */
 html, body {
   position: relative;
@@ -98,7 +92,7 @@ html, body {
   z-index: 100;
   border-right: solid 1px rgba(136, 136, 136, 0.2);
   transition: 0.8s ease-in-out;
-  background-color: rgba(136, 136, 136, 0.2);
+  background-color: rgba(136, 136, 136, 0.1);
 }
 /* line 39, ../scss/index.scss */
 #side-nav #menu_toggle {
