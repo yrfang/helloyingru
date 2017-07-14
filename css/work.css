@@ -1,25 +1,26 @@
 /* line 1, ../scss/work.scss */
 section#section_work {
   position: relative;
+  margin-top: -20px;
 }
-/* line 4, ../scss/work.scss */
+/* line 5, ../scss/work.scss */
 section#section_work .heading {
   margin-bottom: 30px;
 }
 
-/* line 9, ../scss/work.scss */
+/* line 10, ../scss/work.scss */
 .section__row {
   padding-left: 30px;
   padding-right: 30px;
   margin-bottom: 10px;
 }
 
-/* line 15, ../scss/work.scss */
+/* line 16, ../scss/work.scss */
 .content {
   padding: 0px;
 }
 
-/* line 19, ../scss/work.scss */
+/* line 20, ../scss/work.scss */
 .project {
   width: calc(100% - 10px);
   height: 200px;
@@ -28,7 +29,7 @@ section#section_work .heading {
   position: relative;
   z-index: 0;
 }
-/* line 27, ../scss/work.scss */
+/* line 28, ../scss/work.scss */
 .project:before {
   content: "";
   position: absolute;
@@ -44,7 +45,7 @@ section#section_work .heading {
   opacity: 0.8;
   filter: grayscale(0.8);
 }
-/* line 43, ../scss/work.scss */
+/* line 44, ../scss/work.scss */
 .project:after {
   content: "";
   position: absolute;
@@ -56,24 +57,24 @@ section#section_work .heading {
   border: solid 6px #ffcc33;
   opacity: 0;
 }
-/* line 56, ../scss/work.scss */
+/* line 57, ../scss/work.scss */
 .project:hover:before {
   opacity: 1;
   filter: grayscale(0);
 }
-/* line 60, ../scss/work.scss */
+/* line 61, ../scss/work.scss */
 .project:hover:after {
   opacity: 1;
   animation: hoverBorderProject 0.5s;
 }
-/* line 64, ../scss/work.scss */
+/* line 65, ../scss/work.scss */
 .project:hover .project__name {
   background-color: #ffcc33;
   color: #fff;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   animation: hoverNameProject 0.5s;
 }
-/* line 72, ../scss/work.scss */
+/* line 73, ../scss/work.scss */
 .project .project__name {
   font-size: 18px;
   font-weight: bold;
@@ -133,12 +134,12 @@ section#section_work .heading {
   }
 }
 @media screen and (max-width: 844px) {
-  /* line 108, ../scss/work.scss */
+  /* line 109, ../scss/work.scss */
   .section__row {
     margin-bottom: 0px;
   }
 
-  /* line 112, ../scss/work.scss */
+  /* line 113, ../scss/work.scss */
   .project {
     width: calc(100% - 10px);
     height: 140px;
@@ -146,30 +147,30 @@ section#section_work .heading {
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 121, ../scss/work.scss */
+  /* line 122, ../scss/work.scss */
   .project {
     width: calc(100% - 10px);
     height: 150px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 130, ../scss/work.scss */
+  /* line 131, ../scss/work.scss */
   .section__row {
     margin-bottom: 0px;
   }
 
-  /* line 134, ../scss/work.scss */
+  /* line 135, ../scss/work.scss */
   .project {
     width: 100%;
     height: 120px;
     margin-bottom: 10px;
   }
-  /* line 139, ../scss/work.scss */
+  /* line 140, ../scss/work.scss */
   .project:before {
     opacity: 0.5;
     filter: grayscale(0.5);
   }
-  /* line 144, ../scss/work.scss */
+  /* line 145, ../scss/work.scss */
   .project .project__name {
     font-size: 18px;
     background-color: rgba(255, 204, 51, 0.8);

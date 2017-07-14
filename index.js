@@ -19,3 +19,11 @@ menuToggle.addEventListener('click', function(e){
 
   sideNav.classList.toggle('open');
 });
+
+
+$(document).on('click', '#side-nav a', function(event){
+    event.preventDefault();
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+});
