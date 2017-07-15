@@ -1,0 +1,198 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Merriweather");
+/* line 5, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../usr/local/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, ../scss/resume.scss */
+* {
+  font-family: 'Merriweather', serif, 微軟正黑體;
+}
+
+/* line 11, ../scss/resume.scss */
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 16, ../scss/resume.scss */
+section {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+/* line 20, ../scss/resume.scss */
+section h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/* line 26, ../scss/resume.scss */
+section h3 {
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+/* line 33, ../scss/resume.scss */
+section h4 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+/* line 40, ../scss/resume.scss */
+section h6 {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+/* line 45, ../scss/resume.scss */
+section p {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+
+/* line 55, ../scss/resume.scss */
+#section_about {
+  text-align: center;
+}
+/* line 58, ../scss/resume.scss */
+#section_about .contact_container {
+  width: 200px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  font-size: 15px;
+}
+/* line 67, ../scss/resume.scss */
+#section_about .contact_container .contact {
+  margin-bottom: 10px;
+}
+/* line 70, ../scss/resume.scss */
+#section_about .contact_container .contact .fa {
+  margin-right: 10px;
+}
+/* line 76, ../scss/resume.scss */
+#section_about .links {
+  margin-top: 20px;
+}
+/* line 79, ../scss/resume.scss */
+#section_about .links a {
+  margin-right: 10px;
+}
+/* line 83, ../scss/resume.scss */
+#section_about .links .fa {
+  color: #333;
+  padding: 8px 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 204, 51, 0.5);
+}
+/* line 91, ../scss/resume.scss */
+#section_about .links .fa:hover {
+  background-color: #ffcc33;
+  color: #000;
+  animation: hoverNameProject 0.5s;
+}
+
+@keyframes hoverNameProject {
+  0% {
+    opacity: 0;
+    background-color: #ffcc33;
+  }
+  25% {
+    opacity: 0.2;
+    background-color: #ffcc33;
+  }
+  50% {
+    opacity: 0.5;
+    background-color: #ffcc33;
+  }
+  75% {
+    opacity: 0.8;
+    background-color: #ffb347;
+  }
+  100% {
+    opacity: 1;
+    background-color: #ffb347;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 119, ../scss/resume.scss */
+  section h4 {
+    font-size: 18px;
+  }
+  /* line 123, ../scss/resume.scss */
+  section h6 {
+    font-size: 14px;
+  }
+  /* line 127, ../scss/resume.scss */
+  section p {
+    font-size: 16px;
+  }
+}

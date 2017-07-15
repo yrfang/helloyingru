@@ -4,5 +4,78 @@ doctype
 html(lang='en')
   head
     meta(charset='utf-8')
-    title
-  body
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet", href="../css/resume.css")
+    title Resume | YR Fang | Creative Front-End Developer
+body
+  #app.container
+    section#section_about
+      .row
+        .col-xs-12
+          h2.name Ying Ru Fang
+          .contact_container
+            .contact
+              span.fa.fa-envelope
+              span fyr1116@gmail.com
+            .contact
+              span.fa.fa-mobile
+              span +886 606 551
+            .contact
+              span.fa.fa-map-marker
+              span Taipei, Taiwan
+          .links
+            a(href="")
+              span.fa.fa-linkedin
+            a(href="")
+              span.fa.fa-facebook
+            a(href="")
+              span.fa.fa-codepen
+            a(href="")
+              span.fa.fa-medium
+            a(href="")
+              span.fa.fa-rss
+    section#section_profile
+      .row
+        h3.title.col-xs-12.col-md-3 Profile
+        p.paragraph.col-xs-12.col-md-9 Award winning front-end developer with more than 8+ years experience building pixel perfect websites. Recent contributor to Smashing Magazine. Nominated for a Webby and AGDA design award with portfolio featured on Awwwards as "Site of the Day". Flexible in working environments having positioned for startups, digital agencies, and fortune 500 companies. Focused on helping agile teams with UI development for large scale CMS websites or client-side web apps.
+    hr
+    section#section_education
+      .row
+        h3.title.col-xs-12.col-md-3 Education
+        .col-xs-12.col-md-9
+          .edu_container
+            h4 National Taiwan University
+            h6 MS - Chemical Engineering - 2016
+          .edu_container
+            h4 National Cheng Kung University
+            h6 BS - Chemical Engineering - 2013
+          p Solid understanding of design principles. Proficient with human computer interaction, usability testing, and prototyping.
+    hr
+    section#section_experience
+      .row
+        h3.title.col-xs-12.col-sm-3 Work <br>Experience
+        .col-xs-12.col-md-9
+          .exp_container
+            h4 USI Group in Chemical Industry
+            h6 Planner Specialist - 2016-2017
+          p Solid understanding of design principles. Proficient with human computer interaction, usability testing, and prototyping.
+    hr
+    section#section_project
+      .row
+        h3.title.col-xs-12 Side <br>Projects
+    hr
+    section#section_skill
+      .row
+        h3.title.col-xs-12.col-md-3 Skills
+        .col-xs-12.col-md-9
+          .skill_container
+            
+  
+  
+  
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
+    script(src="https://unpkg.com/vue/dist/vue.js")
+    script(src="../javascript/resume.js")
