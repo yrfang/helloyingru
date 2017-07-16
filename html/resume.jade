@@ -43,7 +43,7 @@ body
     hr
     section#section_education
       .row
-        h3.title.col-xs-12.col-md-3 Education
+        h3.col-xs-12.col-md-3 Education
         .col-xs-12.col-md-9
           .edu_container
             h4 National Taiwan University
@@ -55,7 +55,7 @@ body
     hr
     section#section_experience
       .row
-        h3.title.col-xs-12.col-sm-3 Work <br>Experience
+        h3.col-xs-12.col-sm-3 Work <br>Experience
         .col-xs-12.col-md-9
           .exp_container
             h4 USI Group in Chemical Industry
@@ -64,15 +64,73 @@ body
     hr
     section#section_project
       .row
-        h3.title.col-xs-12 Side <br>Projects
+        h3.col-xs-12.col-md-3 Side <br>Projects
+        .col-xs-12.col-md-9
+          .side_container
+            ul
+              li 50 Starter's Project
+              li 10 Vue's Project
+              li Music Mixing Player Project
+            p If you want to view my side projects in furthermore, take a look on <a href="#">my portfolio website</a>.
     hr
     section#section_skill
       .row
-        h3.title.col-xs-12.col-md-3 Skills
+        h3.col-xs-12.col-md-3 Skills
         .col-xs-12.col-md-9
           .skill_container
-            
-  
+            ul
+              li
+                span.title HTML5 & JADE
+                span.bar(data-percent='85')
+                  b
+              li
+                span.title CSS3 & SASS/SCSS
+                span.bar(data-percent='80')
+                  b
+              li
+                span.title JavaScript & ES6
+                span.bar(data-percent='55')
+                  b
+              li
+                span.title jQuery
+                span.bar(data-percent='75')
+                  b
+              li
+                span.title VueJS
+                span.bar(data-percent='50')
+                  b
+          .tool_container
+            ul
+              li Atom/SublimeText 3
+              li Github
+              li DevTools
+    hr
+    section#section_ohter
+      .row
+        h3.col-xs-12.col-md-3 Other
+        .col-xs-12.col-md-9
+          .row.char_container
+            .svg_box.col-sm-4
+              .inner
+                .text Power
+                .number(data-num='70') 0%
+              svg.pie(viewbox='0 0 10 10', data-percent='70')
+                circle.inner_circle(cx=5, cy=5, r=4)
+                circle.circle(cx=5, cy=5, r=4)
+            .svg_box.col-sm-4
+              .inner
+                .text Power
+                .number(data-num='80') 0%
+              svg.pie(viewbox='0 0 10 10', data-percent='80')
+                circle.inner_circle(cx=5, cy=5, r=4)
+                circle.circle(cx=5, cy=5, r=4)
+            .svg_box.col-sm-4
+              .inner
+                .text Power
+                .number(data-num='90') 0%
+              svg.pie(viewbox='0 0 10 10', data-percent='90')
+                circle.inner_circle(cx=5, cy=5, r=4)
+                circle.circle(cx=5, cy=5, r=4)
   
   
     script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")

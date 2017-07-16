@@ -182,17 +182,166 @@ section p {
     background-color: #ffb347;
   }
 }
+/* line 112, ../scss/resume.scss */
+#section_project a {
+  color: #ffb347;
+  text-decoration: none;
+}
+/* line 117, ../scss/resume.scss */
+#section_project ul {
+  padding: 20px;
+}
+/* line 120, ../scss/resume.scss */
+#section_project ul li {
+  list-style: initial;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* line 139, ../scss/resume.scss */
+#section_skill .skill_container {
+  margin-bottom: 15px;
+}
+/* line 142, ../scss/resume.scss */
+#section_skill .skill_container ul {
+  list-style-type: none;
+  padding: 0px;
+}
+/* line 147, ../scss/resume.scss */
+#section_skill .skill_container li {
+  padding: 5px;
+  margin-bottom: 15px;
+  position: relative;
+  border-radius: 5px;
+}
+/* line 153, ../scss/resume.scss */
+#section_skill .skill_container li span {
+  color: #94bd1d;
+  position: relative;
+}
+/* line 157, ../scss/resume.scss */
+#section_skill .skill_container li span.bar {
+  background: #B1D056;
+  background: linear-gradient(to right, #B1D056, #eeaa37);
+  position: absolute;
+  left: 0px;
+  bottom: -7px;
+  height: 8px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5), 1px 1px 3px rgba(51, 51, 51, 0.6);
+}
+/* line 169, ../scss/resume.scss */
+#section_skill .skill_container li span b {
+  color: #f98702;
+  font-weight: normal;
+  position: absolute;
+  bottom: 0px;
+  right: -20px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  transition: 1s;
+}
+/* line 182, ../scss/resume.scss */
+#section_skill .skill_container li:after {
+  content: '';
+  width: 100%;
+  height: 8px;
+  background-color: #ddd;
+  position: absolute;
+  left: 0px;
+  bottom: -10px;
+  z-index: -1;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  box-shadow: 0px 0px 1px #feb, 2px 2px 8px #999 inset;
+}
+/* line 198, ../scss/resume.scss */
+#section_skill .tool_container {
+  margin-top: 20px;
+  margin-bottom: -40px;
+}
+/* line 202, ../scss/resume.scss */
+#section_skill .tool_container ul {
+  padding: 20px;
+}
+/* line 204, ../scss/resume.scss */
+#section_skill .tool_container ul li {
+  list-style: initial;
+  margin-bottom: 10px;
+  font-size: 16pxx;
+}
+
+/* line 220, ../scss/resume.scss */
+.circles_box {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: initial;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* line 230, ../scss/resume.scss */
+.svg_box {
+  position: relative;
+  text-align: center;
+}
+/* line 234, ../scss/resume.scss */
+.svg_box .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 1em;
+  letter-spacing: 2px;
+}
+/* line 244, ../scss/resume.scss */
+.svg_box svg {
+  width: 150px;
+  height: 150px;
+  fill: none;
+  transform: rotate(-90deg);
+}
+/* line 250, ../scss/resume.scss */
+.svg_box svg .inner_circle {
+  stroke-width: 0.15;
+  stroke: #ccc;
+  z-index: 0;
+}
+/* line 256, ../scss/resume.scss */
+.svg_box svg .circle {
+  stroke-width: 0.5;
+  stroke: #dc8336;
+  stroke-linecap: round;
+  z-index: 5;
+}
+
 @media screen and (max-width: 480px) {
-  /* line 119, ../scss/resume.scss */
+  /* line 270, ../scss/resume.scss */
   section h4 {
     font-size: 18px;
   }
-  /* line 123, ../scss/resume.scss */
+  /* line 274, ../scss/resume.scss */
   section h6 {
     font-size: 14px;
   }
-  /* line 127, ../scss/resume.scss */
+  /* line 278, ../scss/resume.scss */
   section p {
     font-size: 16px;
+  }
+
+  /* line 283, ../scss/resume.scss */
+  .title {
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+
+  /* line 290, ../scss/resume.scss */
+  .bar b {
+    font-size: 10px;
   }
 }
