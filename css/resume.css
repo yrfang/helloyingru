@@ -221,8 +221,8 @@ section p {
 }
 /* line 157, ../scss/resume.scss */
 #section_skill .skill_container li span.bar {
-  background: #B1D056;
-  background: linear-gradient(to right, #B1D056, #eeaa37);
+  background: #ffb347;
+  background: linear-gradient(to right, #ffb347, #ffdc74);
   position: absolute;
   left: 0px;
   bottom: -7px;
@@ -232,7 +232,7 @@ section p {
 }
 /* line 169, ../scss/resume.scss */
 #section_skill .skill_container li span b {
-  color: #f98702;
+  color: #ffb347;
   font-weight: normal;
   position: absolute;
   bottom: 0px;
@@ -294,45 +294,48 @@ section p {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  font-size: 1em;
-  letter-spacing: 2px;
+  font-size: 14px;
 }
-/* line 244, ../scss/resume.scss */
+/* line 242, ../scss/resume.scss */
+.svg_box .inner .text {
+  margin-bottom: 5px;
+}
+/* line 247, ../scss/resume.scss */
 .svg_box svg {
   width: 150px;
   height: 150px;
   fill: none;
   transform: rotate(-90deg);
 }
-/* line 250, ../scss/resume.scss */
+/* line 253, ../scss/resume.scss */
 .svg_box svg .inner_circle {
   stroke-width: 0.15;
   stroke: #ccc;
   z-index: 0;
 }
-/* line 256, ../scss/resume.scss */
+/* line 259, ../scss/resume.scss */
 .svg_box svg .circle {
   stroke-width: 0.5;
-  stroke: #dc8336;
+  stroke: #ffcc33;
   stroke-linecap: round;
   z-index: 5;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 270, ../scss/resume.scss */
+  /* line 273, ../scss/resume.scss */
   section h4 {
     font-size: 18px;
   }
-  /* line 274, ../scss/resume.scss */
+  /* line 277, ../scss/resume.scss */
   section h6 {
     font-size: 14px;
   }
-  /* line 278, ../scss/resume.scss */
+  /* line 281, ../scss/resume.scss */
   section p {
     font-size: 16px;
   }
 
-  /* line 283, ../scss/resume.scss */
+  /* line 286, ../scss/resume.scss */
   .title {
     font-size: 14px;
     display: block;
@@ -340,7 +343,7 @@ section p {
     margin-bottom: 10px;
   }
 
-  /* line 290, ../scss/resume.scss */
+  /* line 293, ../scss/resume.scss */
   .bar b {
     font-size: 10px;
   }

@@ -128,10 +128,10 @@ section {
 
 //---------------skill------------------
 $color: (
-  bg_from: #B1D056,
-  bg_end: #eeaa37,
+  bg_from: #ffb347,
+  bg_end: #ffdc74,
   text_from: #94bd1d,
-  text_end: #f98702
+  text_end: #ffb347
 );
 
 
@@ -237,8 +237,11 @@ $color: (
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: 1;
-    font-size: 1em;
-    letter-spacing: 2px;
+    font-size: 14px;
+
+    .text {
+      margin-bottom: 5px;
+    }
   }
 
   svg {
@@ -255,7 +258,7 @@ $color: (
 
     .circle {
       stroke-width: 0.5;
-      stroke: #dc8336;
+      stroke: #ffcc33;
       stroke-linecap: round;
       z-index: 5;
     }

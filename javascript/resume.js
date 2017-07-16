@@ -1,24 +1,18 @@
+const skillSection = document.getElementById('section_skill');
+const otherSection = document.getElementById('section_ohter');
+
+
 var bars = document.querySelectorAll('.bar').forEach((bar) => {
   var percentage = bar.getAttribute("data-percent");
 
-  var loading = setInterval(progressBar, 15);
-  var progress = 0;
-
-  //animation of skillbar loading
-  function progressBar() {
-    if (progress >= percentage) {
-      clearInterval(loading);
-      bar.childNodes[0].innerHTML = percentage + '%';
-    } else {
-      progress++;
-      bar.style.width = progress + '%';
-    }
-  }
+  bar.style.width = percentage + '%';
+  bar.childNodes[0].innerHTML = percentage + '%';
 });
 
 
 
 window.onload = function() {
+
   var radius = document.querySelector('circle').getAttribute('r');
   var circumference = 2 * radius * Math.PI;
   // console.log(circumference);
