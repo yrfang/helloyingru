@@ -71,42 +71,47 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 11, ../scss/resume.scss */
+html, body {
+  position: relative;
+}
+
+/* line 15, ../scss/resume.scss */
 .container {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/* line 16, ../scss/resume.scss */
+/* line 20, ../scss/resume.scss */
 section {
   margin-top: 80px;
   margin-bottom: 80px;
 }
-/* line 20, ../scss/resume.scss */
+/* line 24, ../scss/resume.scss */
 section h2 {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 15px;
 }
-/* line 26, ../scss/resume.scss */
+/* line 30, ../scss/resume.scss */
 section h3 {
   text-transform: uppercase;
   font-size: 28px;
   font-weight: bold;
   margin-bottom: 20px;
 }
-/* line 33, ../scss/resume.scss */
+/* line 37, ../scss/resume.scss */
 section h4 {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
 }
-/* line 40, ../scss/resume.scss */
+/* line 44, ../scss/resume.scss */
 section h6 {
   font-size: 16px;
   margin-bottom: 30px;
 }
-/* line 45, ../scss/resume.scss */
+/* line 49, ../scss/resume.scss */
 section p {
   font-size: 18px;
   line-height: 24px;
@@ -114,11 +119,11 @@ section p {
   text-align: justify;
 }
 
-/* line 55, ../scss/resume.scss */
+/* line 59, ../scss/resume.scss */
 #section_about {
   text-align: center;
 }
-/* line 58, ../scss/resume.scss */
+/* line 62, ../scss/resume.scss */
 #section_about .contact_container {
   width: 200px;
   text-align: left;
@@ -128,23 +133,23 @@ section p {
   padding-left: 10px;
   font-size: 15px;
 }
-/* line 67, ../scss/resume.scss */
+/* line 71, ../scss/resume.scss */
 #section_about .contact_container .contact {
   margin-bottom: 10px;
 }
-/* line 70, ../scss/resume.scss */
+/* line 74, ../scss/resume.scss */
 #section_about .contact_container .contact .fa {
   margin-right: 10px;
 }
-/* line 76, ../scss/resume.scss */
+/* line 80, ../scss/resume.scss */
 #section_about .links {
   margin-top: 20px;
 }
-/* line 79, ../scss/resume.scss */
+/* line 83, ../scss/resume.scss */
 #section_about .links a {
   margin-right: 10px;
 }
-/* line 83, ../scss/resume.scss */
+/* line 87, ../scss/resume.scss */
 #section_about .links .fa {
   color: #333;
   padding: 8px 5px;
@@ -153,7 +158,7 @@ section p {
   border-radius: 50%;
   background-color: rgba(255, 204, 51, 0.5);
 }
-/* line 91, ../scss/resume.scss */
+/* line 95, ../scss/resume.scss */
 #section_about .links .fa:hover {
   background-color: #ffcc33;
   color: #000;
@@ -182,44 +187,44 @@ section p {
     background-color: #ffb347;
   }
 }
-/* line 112, ../scss/resume.scss */
+/* line 116, ../scss/resume.scss */
 #section_project a {
   color: #ffb347;
   text-decoration: none;
 }
-/* line 117, ../scss/resume.scss */
+/* line 121, ../scss/resume.scss */
 #section_project ul {
   padding: 20px;
 }
-/* line 120, ../scss/resume.scss */
+/* line 124, ../scss/resume.scss */
 #section_project ul li {
   list-style: initial;
   font-size: 16px;
   margin-bottom: 10px;
 }
 
-/* line 139, ../scss/resume.scss */
+/* line 143, ../scss/resume.scss */
 #section_skill .skill_container {
   margin-bottom: 15px;
 }
-/* line 142, ../scss/resume.scss */
+/* line 146, ../scss/resume.scss */
 #section_skill .skill_container ul {
   list-style-type: none;
   padding: 0px;
 }
-/* line 147, ../scss/resume.scss */
+/* line 151, ../scss/resume.scss */
 #section_skill .skill_container li {
   padding: 5px;
   margin-bottom: 15px;
   position: relative;
   border-radius: 5px;
 }
-/* line 153, ../scss/resume.scss */
+/* line 157, ../scss/resume.scss */
 #section_skill .skill_container li span {
   color: #94bd1d;
   position: relative;
 }
-/* line 157, ../scss/resume.scss */
+/* line 161, ../scss/resume.scss */
 #section_skill .skill_container li span.bar {
   background: #ffb347;
   background: linear-gradient(to right, #ffb347, #ffdc74);
@@ -230,7 +235,7 @@ section p {
   border-radius: 5px;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5), 1px 1px 3px rgba(51, 51, 51, 0.6);
 }
-/* line 169, ../scss/resume.scss */
+/* line 173, ../scss/resume.scss */
 #section_skill .skill_container li span b {
   color: #ffb347;
   font-weight: normal;
@@ -241,7 +246,7 @@ section p {
   font-size: 13px;
   transition: 1s;
 }
-/* line 182, ../scss/resume.scss */
+/* line 186, ../scss/resume.scss */
 #section_skill .skill_container li:after {
   content: '';
   width: 100%;
@@ -255,23 +260,23 @@ section p {
   margin-bottom: 2px;
   box-shadow: 0px 0px 1px #feb, 2px 2px 8px #999 inset;
 }
-/* line 198, ../scss/resume.scss */
+/* line 202, ../scss/resume.scss */
 #section_skill .tool_container {
   margin-top: 20px;
   margin-bottom: -40px;
 }
-/* line 202, ../scss/resume.scss */
+/* line 206, ../scss/resume.scss */
 #section_skill .tool_container ul {
   padding: 20px;
 }
-/* line 204, ../scss/resume.scss */
+/* line 208, ../scss/resume.scss */
 #section_skill .tool_container ul li {
   list-style: initial;
   margin-bottom: 10px;
   font-size: 16pxx;
 }
 
-/* line 220, ../scss/resume.scss */
+/* line 224, ../scss/resume.scss */
 .circles_box {
   padding: 10px;
   padding-left: 20px;
@@ -282,12 +287,12 @@ section p {
   transform: translateX(-50%);
 }
 
-/* line 230, ../scss/resume.scss */
+/* line 234, ../scss/resume.scss */
 .svg_box {
   position: relative;
   text-align: center;
 }
-/* line 234, ../scss/resume.scss */
+/* line 238, ../scss/resume.scss */
 .svg_box .inner {
   position: absolute;
   top: 50%;
@@ -296,24 +301,24 @@ section p {
   z-index: 1;
   font-size: 14px;
 }
-/* line 242, ../scss/resume.scss */
+/* line 246, ../scss/resume.scss */
 .svg_box .inner .text {
   margin-bottom: 5px;
 }
-/* line 247, ../scss/resume.scss */
+/* line 251, ../scss/resume.scss */
 .svg_box svg {
   width: 150px;
   height: 150px;
   fill: none;
   transform: rotate(-90deg);
 }
-/* line 253, ../scss/resume.scss */
+/* line 257, ../scss/resume.scss */
 .svg_box svg .inner_circle {
   stroke-width: 0.15;
   stroke: #ccc;
   z-index: 0;
 }
-/* line 259, ../scss/resume.scss */
+/* line 263, ../scss/resume.scss */
 .svg_box svg .circle {
   stroke-width: 0.5;
   stroke: #ffcc33;
@@ -321,21 +326,49 @@ section p {
   z-index: 5;
 }
 
+/* line 274, ../scss/resume.scss */
+.backHome {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  padding: 8px 15px;
+}
+/* line 280, ../scss/resume.scss */
+.backHome:hover {
+  border: solid 1px rgba(255, 204, 51, 0.5);
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* line 286, ../scss/resume.scss */
+.backHome a {
+  text-decoration: none;
+  color: #999;
+}
+/* line 291, ../scss/resume.scss */
+.backHome .fa {
+  font-size: 16px;
+  margin-right: 10px;
+}
+/* line 296, ../scss/resume.scss */
+.backHome .home {
+  font-size: 14px;
+}
+
 @media screen and (max-width: 480px) {
-  /* line 273, ../scss/resume.scss */
+  /* line 305, ../scss/resume.scss */
   section h4 {
     font-size: 18px;
   }
-  /* line 277, ../scss/resume.scss */
+  /* line 309, ../scss/resume.scss */
   section h6 {
     font-size: 14px;
   }
-  /* line 281, ../scss/resume.scss */
+  /* line 313, ../scss/resume.scss */
   section p {
     font-size: 16px;
   }
 
-  /* line 286, ../scss/resume.scss */
+  /* line 318, ../scss/resume.scss */
   .title {
     font-size: 14px;
     display: block;
@@ -343,7 +376,7 @@ section p {
     margin-bottom: 10px;
   }
 
-  /* line 293, ../scss/resume.scss */
+  /* line 325, ../scss/resume.scss */
   .bar b {
     font-size: 10px;
   }
