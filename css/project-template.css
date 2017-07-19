@@ -212,21 +212,29 @@ hr {
   margin-top: 20px;
 }
 /* line 146, ../scss/project-template.scss */
+.summary a {
+  color: #ff9737;
+  text-decoration: none;
+}
+/* line 151, ../scss/project-template.scss */
 .summary ul {
   padding-left: 20px;
 }
-/* line 150, ../scss/project-template.scss */
+/* line 155, ../scss/project-template.scss */
 .summary li {
+  font-size: 16px;
+  letter-spacing: 1px;
   list-style: initial;
-  margin-bottom: 10px;
+  line-height: 20px;
+  margin-bottom: 15px;
 }
 
-/* line 159, ../scss/project-template.scss */
+/* line 167, ../scss/project-template.scss */
 #section_detail .detail_row {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-/* line 164, ../scss/project-template.scss */
+/* line 172, ../scss/project-template.scss */
 #section_detail .outer_container {
   width: 100%;
   max-width: 380px;
@@ -237,7 +245,7 @@ hr {
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
   margin-top: 20px;
 }
-/* line 174, ../scss/project-template.scss */
+/* line 182, ../scss/project-template.scss */
 #section_detail .outer_container .display {
   width: 100%;
   height: 80%;
@@ -249,14 +257,14 @@ hr {
   box-shadow: 0px 0px 5px 1px #999 inset;
   font-size: 16px;
 }
-/* line 188, ../scss/project-template.scss */
+/* line 196, ../scss/project-template.scss */
 #section_detail .outer_container h3 {
   padding-top: 10px;
   font-size: 20px;
   color: #fff;
   text-align: center;
 }
-/* line 196, ../scss/project-template.scss */
+/* line 204, ../scss/project-template.scss */
 #section_detail .text {
   width: 100%;
   max-width: 380px;
@@ -264,26 +272,28 @@ hr {
   padding-top: 10px;
   padding-bottom: 20px;
 }
-/* line 203, ../scss/project-template.scss */
+/* line 211, ../scss/project-template.scss */
 #section_detail .text p {
   margin-top: 10px;
   font-size: 20px;
+  line-height: 24px;
 }
-/* line 208, ../scss/project-template.scss */
+/* line 217, ../scss/project-template.scss */
 #section_detail .text ul {
   margin-top: 10px;
   margin-bottom: 15px;
 }
-/* line 212, ../scss/project-template.scss */
+/* line 221, ../scss/project-template.scss */
 #section_detail .text ul li {
   margin-right: 10px;
+  margin-bottom: 5px;
   padding: 5px 3px;
   font-size: 12px;
   color: #333;
   background-color: rgba(255, 204, 51, 0.5);
   display: inline-block;
 }
-/* line 222, ../scss/project-template.scss */
+/* line 232, ../scss/project-template.scss */
 #section_detail .text a {
   color: #333;
   background-color: rgba(60, 193, 77, 0.8);
@@ -293,116 +303,119 @@ hr {
   margin-right: 10px;
   font-size: 14px;
 }
-/* line 231, ../scss/project-template.scss */
+/* line 241, ../scss/project-template.scss */
 #section_detail .text a:hover {
   color: #fff;
   background-color: #3cc14d;
 }
 
-/* line 242, ../scss/project-template.scss */
+/* line 252, ../scss/project-template.scss */
 #section_result {
   padding-top: 50px;
   padding-bottom: 130px;
 }
 
-/* line 247, ../scss/project-template.scss */
+/* line 257, ../scss/project-template.scss */
 .result {
   margin-top: 20px;
 }
-/* line 250, ../scss/project-template.scss */
+/* line 260, ../scss/project-template.scss */
 .result ul {
   padding-left: 20px;
 }
-/* line 254, ../scss/project-template.scss */
+/* line 264, ../scss/project-template.scss */
 .result li {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 20px;
   list-style: initial;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-/* line 263, ../scss/project-template.scss */
+/* line 276, ../scss/project-template.scss */
 .backHome {
   position: absolute;
   bottom: 30px;
   right: 30px;
   padding: 8px 15px;
 }
-/* line 269, ../scss/project-template.scss */
+/* line 282, ../scss/project-template.scss */
 .backHome:hover {
   border: solid 1px rgba(255, 204, 51, 0.8);
   border-radius: 3px;
   cursor: pointer;
 }
-/* line 275, ../scss/project-template.scss */
+/* line 288, ../scss/project-template.scss */
 .backHome a {
   text-decoration: none;
   color: #999;
 }
-/* line 280, ../scss/project-template.scss */
+/* line 293, ../scss/project-template.scss */
 .backHome .fa {
   font-size: 16px;
   margin-right: 10px;
 }
-/* line 285, ../scss/project-template.scss */
+/* line 298, ../scss/project-template.scss */
 .backHome .home {
   font-size: 14px;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 292, ../scss/project-template.scss */
+  /* line 305, ../scss/project-template.scss */
   h2 {
     font-size: 24px;
     line-height: 26px;
   }
 
-  /* line 297, ../scss/project-template.scss */
+  /* line 310, ../scss/project-template.scss */
   .tags {
     width: 100%;
   }
-  /* line 300, ../scss/project-template.scss */
+  /* line 313, ../scss/project-template.scss */
   .tags ul li {
     font-size: 14px;
   }
 
-  /* line 305, ../scss/project-template.scss */
+  /* line 318, ../scss/project-template.scss */
   .screen_container {
     min-height: 150px;
     min-width: 100%;
     margin-left: -10px;
   }
-  /* line 310, ../scss/project-template.scss */
+  /* line 323, ../scss/project-template.scss */
   .screen_container .innerScreen {
     min-height: 130px;
   }
 
-  /* line 316, ../scss/project-template.scss */
+  /* line 329, ../scss/project-template.scss */
   #section_detail .outer_container {
     min-height: 150px;
     min-width: 100%;
   }
-  /* line 320, ../scss/project-template.scss */
+  /* line 333, ../scss/project-template.scss */
   #section_detail .outer_container .display {
     min-height: 130px;
   }
-  /* line 324, ../scss/project-template.scss */
+  /* line 337, ../scss/project-template.scss */
   #section_detail .outer_container h3 {
     font-size: 16px;
   }
-  /* line 329, ../scss/project-template.scss */
+  /* line 342, ../scss/project-template.scss */
   #section_detail .text {
     text-align: center;
     min-height: initial;
     padding-top: 10px;
   }
-  /* line 335, ../scss/project-template.scss */
+  /* line 348, ../scss/project-template.scss */
   #section_detail .text p {
     margin-top: 0px;
     font-size: 16px;
   }
-  /* line 340, ../scss/project-template.scss */
+  /* line 353, ../scss/project-template.scss */
   #section_detail .text ul li {
     font-size: 12px;
   }
-  /* line 343, ../scss/project-template.scss */
+  /* line 356, ../scss/project-template.scss */
   #section_detail .text a {
     font-size: 12px;
   }
