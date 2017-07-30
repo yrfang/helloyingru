@@ -315,8 +315,8 @@ section p {
 }
 /* line 258, ../scss/resume.scss */
 .svg_box svg .inner_circle {
-  stroke-width: 0.15;
-  stroke: #ccc;
+  stroke-width: 0.5;
+  stroke: rgba(221, 221, 221, 0.7);
   z-index: 0;
 }
 /* line 264, ../scss/resume.scss */

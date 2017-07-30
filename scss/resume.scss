@@ -256,8 +256,8 @@ $color: (
     transform: rotate(-90deg);
 
     .inner_circle {
-      stroke-width: 0.15;
-      stroke: #ccc;
+      stroke-width: 0.5;
+      stroke: rgba(#ddd,0.7);
       z-index: 0;
     }
 
