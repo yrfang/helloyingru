@@ -11,16 +11,21 @@ section#section_contact {
 }
 
 /* line 11, ../scss/contact.scss */
+.heading {
+  margin-bottom: 30px;
+}
+
+/* line 15, ../scss/contact.scss */
 .contact {
   margin-top: 10px;
   padding-left: 20px;
 }
-/* line 15, ../scss/contact.scss */
+/* line 19, ../scss/contact.scss */
 .contact p {
   font-size: 16px;
   margin-bottom: 10px;
 }
-/* line 20, ../scss/contact.scss */
+/* line 24, ../scss/contact.scss */
 .contact span.fa {
   margin-right: 10px;
   font-size: 18px;
@@ -32,21 +37,21 @@ section#section_contact {
   height: 30px;
   border-radius: 50%;
 }
-/* line 31, ../scss/contact.scss */
+/* line 35, ../scss/contact.scss */
 .contact span.fa:hover {
   background-color: #ffcc33;
   color: #000;
   animation: hoverNameProject 0.3s;
 }
 
-/* line 39, ../scss/contact.scss */
+/* line 43, ../scss/contact.scss */
 #contact__form {
   width: 100%;
   padding: 0px;
   margin: 0px;
   margin-left: -40px;
 }
-/* line 45, ../scss/contact.scss */
+/* line 49, ../scss/contact.scss */
 #contact__form input {
   width: 100%;
   border: none;
@@ -54,16 +59,16 @@ section#section_contact {
   height: 30px;
   margin-bottom: 10px;
 }
-/* line 53, ../scss/contact.scss */
+/* line 57, ../scss/contact.scss */
 #contact__form input:focus {
   outline: 0;
   border-bottom: solid 2px #ffcc33;
 }
-/* line 58, ../scss/contact.scss */
+/* line 62, ../scss/contact.scss */
 #contact__form #message:focus {
   height: 150px;
 }
-/* line 63, ../scss/contact.scss */
+/* line 67, ../scss/contact.scss */
 #contact__form #send {
   background-color: rgba(255, 204, 51, 0.5);
   color: #333;
@@ -73,12 +78,12 @@ section#section_contact {
   border-radius: 3px;
   margin-top: 10px;
 }
-/* line 72, ../scss/contact.scss */
+/* line 76, ../scss/contact.scss */
 #contact__form #send:hover {
   background-color: #ffb347;
   color: #fff;
 }
-/* line 77, ../scss/contact.scss */
+/* line 81, ../scss/contact.scss */
 #contact__form #send:focus {
   outline: none;
 }
@@ -106,29 +111,29 @@ section#section_contact {
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 95, ../scss/contact.scss */
+  /* line 99, ../scss/contact.scss */
   .contact {
     margin-bottom: 30px;
   }
 
-  /* line 99, ../scss/contact.scss */
+  /* line 103, ../scss/contact.scss */
   #contact__form {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 844px) {
-  /* line 108, ../scss/contact.scss */
+  /* line 112, ../scss/contact.scss */
   .contact {
     margin-bottom: 30px;
   }
 
-  /* line 112, ../scss/contact.scss */
+  /* line 116, ../scss/contact.scss */
   #contact__form {
     margin-left: 0px;
   }
 }
 @media (min-width: 992px) {
-  /* line 119, ../scss/contact.scss */
+  /* line 123, ../scss/contact.scss */
   .contact {
     padding-left: 40px;
   }

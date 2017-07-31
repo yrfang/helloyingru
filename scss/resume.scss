@@ -58,7 +58,7 @@ section {
 //---------------about--------------------
 #section_about {
   text-align: center;
-  margin-top: 130px;
+  margin-top: 80px;
 
   .contact_container {
     width: 200px;
@@ -219,7 +219,7 @@ $color: (
 
 //--------------ohter------------------
 #section_ohter{
-
+  padding-bottom: 50px;
 }
 
 .circles_box {
@@ -274,7 +274,7 @@ $color: (
 //---------------backHome--------------------
 .backHome {
   position: absolute;
-  top: 30px;
+  bottom: 30px;
   right: 30px;
   padding: 8px 15px;
 

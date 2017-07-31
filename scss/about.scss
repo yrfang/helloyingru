@@ -16,14 +16,13 @@ section#section_about {
 }
 
 .heading {
-  padding: 150px 30px 40px 30px;
+  padding: 120px 30px 40px 30px;
 }
 
 
 //---------------resume-section---------------
 .resume {
-  margin-bottom: 20px;
-  padding: 30px 20px;
+  padding: 0px 20px;
 }
 
 a:link, a:visited, a:hover {
@@ -69,6 +68,8 @@ a:link, a:visited, a:hover {
   margin-top: 20px;
   padding-left: 40px;
   padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
   p {
     font-size: 16px;
@@ -111,8 +112,21 @@ a:link, a:visited, a:hover {
 
   .introduction {
     margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  .heading {
+    padding: 80px 30px 40px 30px;
+  }
+
+  #section_about {
+    .resume {
+      margin-bottom: 0px;
+    }
   }
 }
 
