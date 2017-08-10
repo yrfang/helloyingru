@@ -88,27 +88,28 @@ section {
 h2 {
   font-size: 28px;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 40px;
+  margin-bottom: 10px;
 }
 
-/* line 29, ../scss/project-template.scss */
+/* line 30, ../scss/project-template.scss */
 h3 {
   font-size: 20px;
   font-weight: bold;
 }
 
-/* line 36, ../scss/project-template.scss */
+/* line 37, ../scss/project-template.scss */
 #section_title {
   padding-top: 80px;
 }
 
-/* line 40, ../scss/project-template.scss */
+/* line 41, ../scss/project-template.scss */
 .tags {
   margin-top: 20px;
   margin-bottom: 20px;
   width: 80%;
 }
-/* line 45, ../scss/project-template.scss */
+/* line 46, ../scss/project-template.scss */
 .tags ul li {
   font-size: 16px;
   display: inline-block;
@@ -119,7 +120,7 @@ h3 {
   padding: 5px;
   position: relative;
 }
-/* line 55, ../scss/project-template.scss */
+/* line 56, ../scss/project-template.scss */
 .tags ul li:after {
   content: '';
   border-top: solid 13px transparent;
@@ -130,11 +131,11 @@ h3 {
   right: -13px;
 }
 
-/* line 67, ../scss/project-template.scss */
+/* line 68, ../scss/project-template.scss */
 .links {
   margin-bottom: 30px;
 }
-/* line 69, ../scss/project-template.scss */
+/* line 70, ../scss/project-template.scss */
 .links a {
   color: #000;
   background-color: rgba(60, 193, 77, 0.5);
@@ -143,13 +144,13 @@ h3 {
   text-decoration: none;
   transition: 0.3s;
 }
-/* line 77, ../scss/project-template.scss */
+/* line 78, ../scss/project-template.scss */
 .links a:hover {
   color: #fff;
   background-color: rgba(60, 193, 77, 0.8);
 }
 
-/* line 84, ../scss/project-template.scss */
+/* line 85, ../scss/project-template.scss */
 .screen_container {
   padding: 10px;
   padding-top: 40px;
@@ -162,14 +163,14 @@ h3 {
   position: relative;
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
 }
-/* line 96, ../scss/project-template.scss */
+/* line 97, ../scss/project-template.scss */
 .screen_container .topper {
   position: absolute;
   top: 10px;
   left: 10px;
   padding: 5px;
 }
-/* line 102, ../scss/project-template.scss */
+/* line 103, ../scss/project-template.scss */
 .screen_container .topper .circle {
   width: 12px;
   height: 12px;
@@ -178,15 +179,15 @@ h3 {
   display: inline-block;
   box-shadow: 0px 0px 3px #fff;
 }
-/* line 110, ../scss/project-template.scss */
+/* line 111, ../scss/project-template.scss */
 .screen_container .topper .circle:nth-child(2) {
   background-color: #fcc855;
 }
-/* line 114, ../scss/project-template.scss */
+/* line 115, ../scss/project-template.scss */
 .screen_container .topper .circle:nth-child(3) {
   background-color: #3cc14d;
 }
-/* line 120, ../scss/project-template.scss */
+/* line 121, ../scss/project-template.scss */
 .screen_container .innerScreen {
   width: 100%;
   max-width: 480px;
@@ -197,44 +198,44 @@ h3 {
   box-shadow: 0px 0px 5px 1px #999 inset;
 }
 
-/* line 133, ../scss/project-template.scss */
+/* line 134, ../scss/project-template.scss */
 hr {
   border-color: rgba(0, 0, 0, 0.1);
 }
 
-/* line 139, ../scss/project-template.scss */
+/* line 140, ../scss/project-template.scss */
 #section_summary {
   padding-top: 50px;
 }
 
-/* line 143, ../scss/project-template.scss */
+/* line 144, ../scss/project-template.scss */
 .summary {
   margin-top: 20px;
 }
-/* line 146, ../scss/project-template.scss */
+/* line 147, ../scss/project-template.scss */
 .summary a {
   color: #ff9737;
   text-decoration: none;
 }
-/* line 151, ../scss/project-template.scss */
+/* line 152, ../scss/project-template.scss */
 .summary ul {
   padding-left: 20px;
 }
-/* line 155, ../scss/project-template.scss */
+/* line 156, ../scss/project-template.scss */
 .summary li {
-  font-size: 16px;
-  letter-spacing: 1px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
   list-style: initial;
-  line-height: 20px;
-  margin-bottom: 15px;
+  line-height: 22px;
+  margin-bottom: 30px;
 }
 
-/* line 167, ../scss/project-template.scss */
+/* line 168, ../scss/project-template.scss */
 #section_detail .detail_row {
   margin-bottom: 20px;
   margin-top: 20px;
 }
-/* line 172, ../scss/project-template.scss */
+/* line 173, ../scss/project-template.scss */
 #section_detail .outer_container {
   width: 100%;
   max-width: 380px;
@@ -245,7 +246,7 @@ hr {
   box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.2);
   margin-top: 20px;
 }
-/* line 182, ../scss/project-template.scss */
+/* line 183, ../scss/project-template.scss */
 #section_detail .outer_container .display {
   width: 100%;
   height: 80%;
@@ -257,14 +258,14 @@ hr {
   box-shadow: 0px 0px 5px 1px #999 inset;
   font-size: 16px;
 }
-/* line 196, ../scss/project-template.scss */
+/* line 197, ../scss/project-template.scss */
 #section_detail .outer_container h3 {
   padding-top: 10px;
   font-size: 20px;
   color: #fff;
   text-align: center;
 }
-/* line 204, ../scss/project-template.scss */
+/* line 205, ../scss/project-template.scss */
 #section_detail .text {
   width: 100%;
   max-width: 380px;
@@ -272,28 +273,28 @@ hr {
   padding-top: 10px;
   padding-bottom: 20px;
 }
-/* line 211, ../scss/project-template.scss */
+/* line 212, ../scss/project-template.scss */
 #section_detail .text p {
   margin-top: 10px;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 24px;
 }
-/* line 217, ../scss/project-template.scss */
+/* line 218, ../scss/project-template.scss */
 #section_detail .text ul {
   margin-top: 10px;
   margin-bottom: 15px;
 }
-/* line 221, ../scss/project-template.scss */
+/* line 222, ../scss/project-template.scss */
 #section_detail .text ul li {
   margin-right: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   padding: 5px 3px;
-  font-size: 12px;
+  font-size: 16px;
   color: #333;
   background-color: rgba(255, 204, 51, 0.5);
   display: inline-block;
 }
-/* line 232, ../scss/project-template.scss */
+/* line 233, ../scss/project-template.scss */
 #section_detail .text a {
   color: #333;
   background-color: rgba(60, 193, 77, 0.8);
@@ -303,119 +304,124 @@ hr {
   margin-right: 10px;
   font-size: 14px;
 }
-/* line 241, ../scss/project-template.scss */
+/* line 242, ../scss/project-template.scss */
 #section_detail .text a:hover {
   color: #fff;
   background-color: #3cc14d;
 }
 
-/* line 252, ../scss/project-template.scss */
+/* line 253, ../scss/project-template.scss */
 #section_result {
   padding-top: 50px;
   padding-bottom: 130px;
 }
 
-/* line 257, ../scss/project-template.scss */
+/* line 258, ../scss/project-template.scss */
 .result {
   margin-top: 20px;
 }
-/* line 260, ../scss/project-template.scss */
+/* line 261, ../scss/project-template.scss */
 .result ul {
   padding-left: 20px;
 }
-/* line 264, ../scss/project-template.scss */
+/* line 265, ../scss/project-template.scss */
 .result li {
-  font-size: 16px;
-  letter-spacing: 1px;
-  line-height: 20px;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  line-height: 22px;
   list-style: initial;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 
-/* line 276, ../scss/project-template.scss */
+/* line 277, ../scss/project-template.scss */
 .backHome {
   position: absolute;
   bottom: 30px;
   right: 30px;
   padding: 8px 15px;
 }
-/* line 282, ../scss/project-template.scss */
+/* line 283, ../scss/project-template.scss */
 .backHome:hover {
   border: solid 1px rgba(255, 204, 51, 0.8);
   border-radius: 3px;
   cursor: pointer;
 }
-/* line 288, ../scss/project-template.scss */
+/* line 289, ../scss/project-template.scss */
 .backHome a {
   text-decoration: none;
   color: #999;
 }
-/* line 293, ../scss/project-template.scss */
+/* line 294, ../scss/project-template.scss */
 .backHome .fa {
   font-size: 16px;
   margin-right: 10px;
 }
-/* line 298, ../scss/project-template.scss */
+/* line 299, ../scss/project-template.scss */
 .backHome .home {
   font-size: 14px;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 305, ../scss/project-template.scss */
+  /* line 306, ../scss/project-template.scss */
   h2 {
     font-size: 24px;
     line-height: 26px;
   }
 
-  /* line 310, ../scss/project-template.scss */
+  /* line 311, ../scss/project-template.scss */
   .tags {
     width: 100%;
   }
-  /* line 313, ../scss/project-template.scss */
+  /* line 314, ../scss/project-template.scss */
   .tags ul li {
     font-size: 14px;
   }
 
-  /* line 318, ../scss/project-template.scss */
+  /* line 319, ../scss/project-template.scss */
   .screen_container {
     min-height: 150px;
     min-width: 100%;
     margin-left: -10px;
   }
-  /* line 323, ../scss/project-template.scss */
+  /* line 324, ../scss/project-template.scss */
   .screen_container .innerScreen {
     min-height: 130px;
   }
 
-  /* line 329, ../scss/project-template.scss */
+  /* line 330, ../scss/project-template.scss */
+  #section_summary ul li, #section_result ul li {
+    font-size: 16px;
+  }
+
+  /* line 336, ../scss/project-template.scss */
   #section_detail .outer_container {
     min-height: 150px;
     min-width: 100%;
   }
-  /* line 333, ../scss/project-template.scss */
+  /* line 340, ../scss/project-template.scss */
   #section_detail .outer_container .display {
     min-height: 130px;
   }
-  /* line 337, ../scss/project-template.scss */
+  /* line 344, ../scss/project-template.scss */
   #section_detail .outer_container h3 {
     font-size: 16px;
   }
-  /* line 342, ../scss/project-template.scss */
+  /* line 349, ../scss/project-template.scss */
   #section_detail .text {
     text-align: center;
     min-height: initial;
     padding-top: 10px;
   }
-  /* line 348, ../scss/project-template.scss */
+  /* line 355, ../scss/project-template.scss */
   #section_detail .text p {
     margin-top: 0px;
     font-size: 16px;
   }
-  /* line 353, ../scss/project-template.scss */
+  /* line 360, ../scss/project-template.scss */
   #section_detail .text ul li {
     font-size: 12px;
   }
-  /* line 356, ../scss/project-template.scss */
+  /* line 363, ../scss/project-template.scss */
   #section_detail .text a {
     font-size: 12px;
   }

@@ -23,7 +23,8 @@ section {
 h2 {
   font-size: 28px;
   font-weight: bold;
-  line-height: 30px;
+  line-height: 40px;
+  margin-bottom: 10px;
 }
 
 h3 {
@@ -153,11 +154,11 @@ hr {
   }
 
   li {
-    font-size: 16px;
-    letter-spacing: 1px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
     list-style: initial;
-    line-height: 20px;
-    margin-bottom: 15px;
+    line-height: 22px;
+    margin-bottom: 30px;
   }
 }
 
@@ -210,7 +211,7 @@ hr {
 
     p {
       margin-top: 10px;
-      font-size: 20px;
+      font-size: 22px;
       line-height: 24px;
     }
 
@@ -220,9 +221,9 @@ hr {
 
       li {
         margin-right: 10px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         padding: 5px 3px;
-        font-size: 12px;
+        font-size: 16px;
         color: #333;
         background-color: rgba(#ffcc33, 0.5);
         display: inline-block;
@@ -262,11 +263,11 @@ hr {
   }
 
   li {
-    font-size: 16px;
-    letter-spacing: 1px;
-    line-height: 20px;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 22px;
     list-style: initial;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
 }
 
@@ -322,6 +323,12 @@ hr {
 
     .innerScreen {
       min-height: 130px;
+    }
+  }
+
+  #section_summary, #section_result {
+    ul li {
+      font-size: 16px;
     }
   }
 
