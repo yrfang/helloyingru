@@ -1,0 +1,133 @@
+//output:vue-note.html
+
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet", href="../css/project-template.css")
+    title VueJS Note Project | YR Fang
+    style(media="screen").
+      .innerScreen {
+        background-image: url('../image/vue-note/coverphoto-vue-note.png');
+      }
+body
+  #app.container
+    section#section_title
+      .row
+        .col-xs-12.col-md-5
+          h2 Vue.js Note Project
+          h3 A Vue.js Project with LocalStorage
+          .tags
+            ul
+              li HTML5 / Pug
+              li Sass
+              li RWD
+              li JavaScript / ES6
+              li Vue.js / Vue-cli
+          .links
+            a(href="https://yrfang.github.io/vuejs-localstorage-note/" target="_blank") View project
+            a(href="https://github.com/yrfang/vuejs-localstorage-note" target="_blank") View Code
+        .col-xs-12.col-md-6
+          .screen_container
+            .topper
+              .circle
+              .circle
+              .circle
+            .innerScreen
+    hr
+    section#section_summary
+      .row
+        .col-xs-12.col-md-5
+          h2 Qick Summary
+        .summary.col-xs-12.col-md-6
+          ul
+            li A useful website for Taipei typhoon message project with government's open source data of the disaster.
+            li The first Vue.js side project I did with multiple components.
+            li I have fininsed with two parts. One is the table with the latest update of tyhpoon message. And the other one is the google map api connet with data.
+            li Currently, the website is available with GitPage and analzed with Google analysis.
+    hr
+    section#section_detail
+      .row
+        .col-xs-12.col-md-12
+          h2 Features
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/vue-note/feature1-note.png');")
+            h3 Viewing Note
+        .col-xs-12.col-md-6
+          .text
+            p View the note in the single page, edit and delete is also available.
+            ul
+              li Vue-cli
+              li Packages installed with npm
+              li Single page application with vue-router
+            //- a(href="#") View More
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/vue-note/feature2-edit.png');")
+            h3 Editing note
+        .col-xs-12.col-md-6
+          .text
+            p Edit the note through data binding feature of Vue.js framework.
+            ul
+              li Vue.js / v-model
+            //- a(href="#") View More
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/vue-note/feature3-tagsearch.png');")
+            h3 Classification with Tags
+        .col-xs-12.col-md-6
+          .text
+            p Notes can be quickly search by uses' tags.
+            ul
+              li Vue.js / v-model
+            //- a(href="#") View More
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/vue-note/feature4-keyword-search.png');")
+            h3 Keywords search
+        .col-xs-12.col-md-6
+          .text
+            p Keywords can be easily search with title, tag or text in any notes.
+            ul
+              li Vue.js / v-model
+            //- a(href="#") View More
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/vue-note/feature5-mobile-screen.png');")
+            h3 Mobile Application
+        .col-xs-12.col-md-6
+          .text
+            p The website is RWD in mobile device.
+            ul
+              li CSS / SASS
+              li RWD
+            //- a(href="#") View More
+    hr
+    section#section_result
+      .row
+        .col-xs-12.col-md-5
+          h2 Learned
+        .result.col-xs-12.col-md-6
+          ul
+            li Learn how to design usable code and components with Vue-cli in a "real" development workflow.
+            li Connecting to servers using vue-axios but jquery.
+            li The basic table with filtered, sorted features and pagination is the most powerful usage of Vue.js with its two-way data binding feature.
+            li Learn how to connect google map API with select form in different Taipei distrcts.
+            li Routing in a Vue.js Application to make a single page.
+            li Finally, I haved known how to deploy my finished appliction with build tools. 
+    footer.backHome
+      a(href="../index.html")
+        span.fa.fa-angle-left
+        span.home HOME
+      
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")  
+  script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")
