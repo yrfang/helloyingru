@@ -14,6 +14,10 @@ section#section_about {
     background-position: center bottom;
     background-size: 120%;
     opacity: 0.8;
+
+    @media (min-width: 992px) and (max-width: 1200px) {
+      height: 340px;
+    }
   }
 
   p.hello {
