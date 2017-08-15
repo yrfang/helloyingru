@@ -238,7 +238,7 @@ section#section_about {
   width: 100%;
   height: 400px;
   background-image: url("../image/hi-3.png");
-  background-position: center center;
+  background-position: bottom center;
   background-size: 120%;
   opacity: 0.8;
 }
