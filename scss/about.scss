@@ -7,11 +7,25 @@ section#section_about {
   display: block;
 
   .coverPhoto {
+    margin-left: -5px;
     width: 100%;
     height: 400px;
-    background-image: url("https://lh3.googleusercontent.com/dGA3b6-CXfHV1eKxQ8rO6Si_SSq6QmH9AlvcdMcCOyH1vXkpUtYId0TGjD11zbPz8Yk0DfMV=s640-h400-e365");
+    background-image: url("../image/hi-3.png");
     background-position: center center;
-    margin-left: -5px;
+    background-size: 120%;
+    opacity: 0.8;
+  }
+
+  p.hello {
+    position: absolute;
+    top: 20%;
+    right: 35%;
+    text-align: left;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 54px;
+    letter-spacing: 2px;
+    color: #fcefdd;
   }
 }
 

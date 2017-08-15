@@ -47,7 +47,7 @@ section#section_work .heading {
 /* line 44, ../scss/work.scss */
 .project.project_1:before {
   background-image: url("../image/front-end-starter-project/coverphoto-front-end-starter-project.png");
-  background-position: 0px center;
+  background-position: 0px top;
 }
 /* line 49, ../scss/work.scss */
 .project.project_2:before {
@@ -91,14 +91,15 @@ section#section_work .heading {
 .project:hover .project__name {
   background-color: #ffcc33;
   color: #fff;
+  opacity: 1;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   animation: hoverNameProject 0.5s;
 }
-/* line 94, ../scss/work.scss */
+/* line 95, ../scss/work.scss */
 .project .project__name {
   font-size: 18px;
   font-weight: bold;
-  color: #fff;
+  opacity: 0;
   position: relative;
   top: 50%;
   left: 50%;
@@ -154,12 +155,12 @@ section#section_work .heading {
   }
 }
 @media screen and (max-width: 844px) {
-  /* line 130, ../scss/work.scss */
+  /* line 131, ../scss/work.scss */
   .section__row {
     margin-bottom: 0px;
   }
 
-  /* line 134, ../scss/work.scss */
+  /* line 135, ../scss/work.scss */
   .project {
     width: calc(100% - 10px);
     height: 140px;
@@ -167,30 +168,30 @@ section#section_work .heading {
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 143, ../scss/work.scss */
+  /* line 144, ../scss/work.scss */
   .project {
     width: calc(100% - 10px);
     height: 150px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 152, ../scss/work.scss */
+  /* line 153, ../scss/work.scss */
   .section__row {
     margin-bottom: 0px;
   }
 
-  /* line 156, ../scss/work.scss */
+  /* line 157, ../scss/work.scss */
   .project {
     width: 100%;
     height: 120px;
     margin-bottom: 10px;
   }
-  /* line 161, ../scss/work.scss */
+  /* line 162, ../scss/work.scss */
   .project:before {
     opacity: 0.5;
     filter: grayscale(0.5);
   }
-  /* line 166, ../scss/work.scss */
+  /* line 167, ../scss/work.scss */
   .project .project__name {
     font-size: 18px;
     background-color: rgba(255, 204, 51, 0.8);
