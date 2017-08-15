@@ -36,7 +36,6 @@ section#section_work .heading {
   left: 0px;
   width: 100%;
   height: 100%;
-  background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/AQNKPDGKR8.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -45,35 +44,55 @@ section#section_work .heading {
   filter: grayscale(0.8);
 }
 /* line 43, ../scss/work.scss */
+.project.project_1:before {
+  background-image: url("../image/front-end-starter-project/coverphoto-front-end-starter-project.png");
+}
+/* line 47, ../scss/work.scss */
+.project.project_2:before {
+  background-image: url("../image/vue-starter-project/coverphoto-vue-starter-project.png");
+}
+/* line 51, ../scss/work.scss */
+.project.project_3:before {
+  background-image: url("../image/taipei-typhoon/coverphoto-taipei-typhoon.png");
+}
+/* line 55, ../scss/work.scss */
+.project.project_4:before {
+  background-image: url("../image/vue-note/coverphoto-vue-note.png");
+}
+/* line 59, ../scss/work.scss */
+.project.project_5:before {
+  background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/AQNKPDGKR8.jpg");
+}
+/* line 63, ../scss/work.scss */
 .project:after {
   content: "";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 95%;
-  height: 95%;
+  width: 100%;
+  height: 100%;
   border: solid 6px #ffcc33;
   opacity: 0;
 }
-/* line 56, ../scss/work.scss */
+/* line 76, ../scss/work.scss */
 .project:hover:before {
   opacity: 1;
   filter: grayscale(0);
 }
-/* line 60, ../scss/work.scss */
+/* line 80, ../scss/work.scss */
 .project:hover:after {
   opacity: 1;
   animation: hoverBorderProject 0.5s;
 }
-/* line 64, ../scss/work.scss */
+/* line 84, ../scss/work.scss */
 .project:hover .project__name {
   background-color: #ffcc33;
   color: #fff;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   animation: hoverNameProject 0.5s;
 }
-/* line 72, ../scss/work.scss */
+/* line 92, ../scss/work.scss */
 .project .project__name {
   font-size: 18px;
   font-weight: bold;
@@ -82,8 +101,8 @@ section#section_work .heading {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 5px;
-  width: 90px;
+  padding: 10px 20px;
+  width: 150px;
   height: initial;
   line-height: 25px;
   text-align: center;
@@ -133,12 +152,12 @@ section#section_work .heading {
   }
 }
 @media screen and (max-width: 844px) {
-  /* line 108, ../scss/work.scss */
+  /* line 128, ../scss/work.scss */
   .section__row {
     margin-bottom: 0px;
   }
 
-  /* line 112, ../scss/work.scss */
+  /* line 132, ../scss/work.scss */
   .project {
     width: calc(100% - 10px);
     height: 140px;
@@ -146,30 +165,30 @@ section#section_work .heading {
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 121, ../scss/work.scss */
+  /* line 141, ../scss/work.scss */
   .project {
     width: calc(100% - 10px);
     height: 150px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 130, ../scss/work.scss */
+  /* line 150, ../scss/work.scss */
   .section__row {
     margin-bottom: 0px;
   }
 
-  /* line 134, ../scss/work.scss */
+  /* line 154, ../scss/work.scss */
   .project {
     width: 100%;
     height: 120px;
     margin-bottom: 10px;
   }
-  /* line 139, ../scss/work.scss */
+  /* line 159, ../scss/work.scss */
   .project:before {
     opacity: 0.5;
     filter: grayscale(0.5);
   }
-  /* line 144, ../scss/work.scss */
+  /* line 164, ../scss/work.scss */
   .project .project__name {
     font-size: 18px;
     background-color: rgba(255, 204, 51, 0.8);
