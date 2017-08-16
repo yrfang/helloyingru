@@ -223,16 +223,16 @@ hr {
 }
 /* line 156, ../scss/project-template.scss */
 .summary li {
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1.5px;
   list-style: initial;
-  line-height: 22px;
+  line-height: 28px;
   margin-bottom: 30px;
 }
 
 /* line 168, ../scss/project-template.scss */
 #section_detail .detail_row {
-  margin-bottom: 20px;
+  margin-bottom: 70px;
   margin-top: 20px;
 }
 /* line 173, ../scss/project-template.scss */
@@ -275,26 +275,27 @@ hr {
 }
 /* line 212, ../scss/project-template.scss */
 #section_detail .text p {
-  margin-top: 10px;
-  font-size: 22px;
+  margin-top: 20px;
+  font-size: 24px;
   line-height: 24px;
+  font-weight: bold;
 }
-/* line 218, ../scss/project-template.scss */
+/* line 219, ../scss/project-template.scss */
 #section_detail .text ul {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 30px;
 }
-/* line 222, ../scss/project-template.scss */
+/* line 224, ../scss/project-template.scss */
 #section_detail .text ul li {
-  margin-right: 10px;
-  margin-bottom: 10px;
-  padding: 5px 3px;
-  font-size: 16px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  line-height: 26px;
   color: #333;
-  background-color: rgba(255, 204, 51, 0.5);
-  display: inline-block;
+  list-style: initial;
+  text-align: left;
 }
-/* line 233, ../scss/project-template.scss */
+/* line 238, ../scss/project-template.scss */
 #section_detail .text a {
   color: #333;
   background-color: rgba(60, 193, 77, 0.8);
@@ -304,124 +305,134 @@ hr {
   margin-right: 10px;
   font-size: 14px;
 }
-/* line 242, ../scss/project-template.scss */
+/* line 247, ../scss/project-template.scss */
 #section_detail .text a:hover {
   color: #fff;
   background-color: #3cc14d;
 }
 
-/* line 253, ../scss/project-template.scss */
+/* line 258, ../scss/project-template.scss */
 #section_result {
   padding-top: 50px;
   padding-bottom: 130px;
 }
 
-/* line 258, ../scss/project-template.scss */
+/* line 263, ../scss/project-template.scss */
 .result {
   margin-top: 20px;
 }
-/* line 261, ../scss/project-template.scss */
+/* line 266, ../scss/project-template.scss */
 .result ul {
   padding-left: 20px;
 }
-/* line 265, ../scss/project-template.scss */
+/* line 270, ../scss/project-template.scss */
 .result li {
-  font-size: 18px;
+  font-size: 20px;
   letter-spacing: 1.5px;
-  line-height: 22px;
+  line-height: 28px;
   list-style: initial;
   margin-bottom: 30px;
 }
 
-/* line 277, ../scss/project-template.scss */
+/* line 282, ../scss/project-template.scss */
 .backHome {
   position: absolute;
   bottom: 30px;
   right: 30px;
   padding: 8px 15px;
 }
-/* line 283, ../scss/project-template.scss */
+/* line 288, ../scss/project-template.scss */
 .backHome:hover {
   border: solid 1px rgba(255, 204, 51, 0.8);
   border-radius: 3px;
   cursor: pointer;
 }
-/* line 289, ../scss/project-template.scss */
+/* line 294, ../scss/project-template.scss */
 .backHome a {
   text-decoration: none;
   color: #999;
 }
-/* line 294, ../scss/project-template.scss */
+/* line 299, ../scss/project-template.scss */
 .backHome .fa {
   font-size: 16px;
   margin-right: 10px;
 }
-/* line 299, ../scss/project-template.scss */
+/* line 304, ../scss/project-template.scss */
 .backHome .home {
   font-size: 14px;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 306, ../scss/project-template.scss */
+  /* line 311, ../scss/project-template.scss */
   h2 {
     font-size: 24px;
     line-height: 26px;
   }
 
-  /* line 311, ../scss/project-template.scss */
+  /* line 316, ../scss/project-template.scss */
   .tags {
     width: 100%;
   }
-  /* line 314, ../scss/project-template.scss */
+  /* line 319, ../scss/project-template.scss */
   .tags ul li {
     font-size: 14px;
   }
 
-  /* line 319, ../scss/project-template.scss */
+  /* line 324, ../scss/project-template.scss */
   .screen_container {
     min-height: 150px;
     min-width: 100%;
     margin-left: -10px;
   }
-  /* line 324, ../scss/project-template.scss */
+  /* line 329, ../scss/project-template.scss */
   .screen_container .innerScreen {
     min-height: 130px;
   }
 
-  /* line 330, ../scss/project-template.scss */
+  /* line 335, ../scss/project-template.scss */
   #section_summary ul li, #section_result ul li {
     font-size: 16px;
   }
 
-  /* line 336, ../scss/project-template.scss */
+  /* line 341, ../scss/project-template.scss */
+  #section_detail .detail_row {
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  /* line 346, ../scss/project-template.scss */
   #section_detail .outer_container {
     min-height: 150px;
     min-width: 100%;
   }
-  /* line 340, ../scss/project-template.scss */
+  /* line 350, ../scss/project-template.scss */
   #section_detail .outer_container .display {
     min-height: 130px;
   }
-  /* line 344, ../scss/project-template.scss */
+  /* line 354, ../scss/project-template.scss */
   #section_detail .outer_container h3 {
     font-size: 16px;
   }
-  /* line 349, ../scss/project-template.scss */
+  /* line 359, ../scss/project-template.scss */
   #section_detail .text {
     text-align: center;
     min-height: initial;
     padding-top: 10px;
   }
-  /* line 355, ../scss/project-template.scss */
+  /* line 365, ../scss/project-template.scss */
   #section_detail .text p {
-    margin-top: 0px;
+    margin-top: 20px;
     font-size: 16px;
   }
-  /* line 360, ../scss/project-template.scss */
-  #section_detail .text ul li {
-    font-size: 12px;
+  /* line 370, ../scss/project-template.scss */
+  #section_detail .text ul {
+    margin-left: 20px;
+    margin-right: 20px;
   }
-  /* line 363, ../scss/project-template.scss */
+  /* line 374, ../scss/project-template.scss */
+  #section_detail .text ul li {
+    font-size: 14px;
+  }
+  /* line 379, ../scss/project-template.scss */
   #section_detail .text a {
     font-size: 12px;
   }
