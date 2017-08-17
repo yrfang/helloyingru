@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/project-template.css">
-    <title>VueJS Note Project | YR Fang</title>
+    <title>Vue.js Note Project | YR Fang</title>
     <style media="screen">
       .innerScreen {
         background-image: url('../image/vue-note/coverphoto-vue-note.png');
@@ -23,14 +23,14 @@
           <h3>A Vue.js Project with LocalStorage</h3>
           <div class="tags">
             <ul>
-              <li>HTML5 / Pug</li>
+              <li>Jade / Pug</li>
               <li>Sass</li>
               <li>RWD</li>
-              <li>JavaScript / ES6</li>
+              <li>JavaScript</li>
               <li>Vue.js / Vue-cli</li>
             </ul>
           </div>
-          <div class="links"><a href="https://yrfang.github.io/vuejs-localstorage-note/" target="_blank">View project</a><a href="https://github.com/yrfang/vuejs-localstorage-note" target="_blank">View Code</a></div>
+          <div class="links"><a href="https://yrfang.github.io/vuejs-localstorage-note/" target="_blank">View Project</a><a href="https://github.com/yrfang/vuejs-localstorage-note" target="_blank">View Github</a></div>
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="screen_container">
@@ -53,9 +53,10 @@
         <div class="summary col-xs-12 col-md-6">
           <ul>
             <li>A simple website for users to take notes with local storage in browser. Therefore the notes will not disppear as browser fresh.</li>
-            <li>It's the project that was applied in single page.</li>
-            <li>There are some basic but useful features in my note project. Users can decide there customized tags and search notes with keywords.</li>
-            <li>Hope this simple note application make users take notes easily.</li>
+            <li>It's the project that was applied in single page and finished with <a href="https://router.vuejs.org/en/" target="_blank">vue-router</a>.</li>
+            <li>I tried to design the brief layout and bring a good UX for users.</li>
+            <li>There are some basic but useful features in my design. Users can decide there customized tags and search notes with keywords easily.</li>
+            <li>A real backend database such as Firebase I want to intergrate to my note project with user authentication in the future.</li>
           </ul>
         </div>
       </div>
@@ -70,17 +71,31 @@
       <div class="row detail_row">
         <div class="col-xs-12 col-md-6">
           <div class="outer_container">
+            <div style="background-image: url('../image/vue-note/feature3-tagsearch.png');" class="display"></div>
+            <h3>Notes List Main Page</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="text">
+            <p>Notes can be easily search by keyword or tags</p>
+            <ul>
+              <li>All edited notes were saved in the browser's local storage until the note list page was loaded to get data in local storage.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row detail_row">
+        <div class="col-xs-12 col-md-6">
+          <div class="outer_container">
             <div style="background-image: url('../image/vue-note/feature1-note.png');" class="display"></div>
             <h3>Viewing Note</h3>
           </div>
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="text">
-            <p>View the note in the single page, edit and delete is also available.</p>
+            <p>Viewing each note, editing and  deleting is all available.</p>
             <ul>
-              <li>Vue-cli</li>
-              <li>Packages installed with npm</li>
-              <li>Single page application with vue-router</li>
+              <li>Using the unique id <a href="https://www.npmjs.com/package/uuid" target="_blank">(uuid library)</a>, which was installed by npm to build the path in vue-router rendering.</li>
             </ul>
           </div>
         </div>
@@ -94,41 +109,10 @@
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="text">
-            <p>Edit the note through data binding feature of Vue.js framework.</p>
+            <p>Editing each note</p>
             <ul>
-              <li>Vue.js / v-model</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row detail_row">
-        <div class="col-xs-12 col-md-6">
-          <div class="outer_container">
-            <div style="background-image: url('../image/vue-note/feature3-tagsearch.png');" class="display"></div>
-            <h3>Classification with Tags</h3>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <div class="text">
-            <p>Notes can be quickly search by uses' tags.</p>
-            <ul>
-              <li>Vue.js / v-model</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row detail_row">
-        <div class="col-xs-12 col-md-6">
-          <div class="outer_container">
-            <div style="background-image: url('../image/vue-note/feature4-keyword-search.png');" class="display"></div>
-            <h3>Keywords search</h3>
-          </div>
-        </div>
-        <div class="col-xs-12 col-md-6">
-          <div class="text">
-            <p>Keywords can be easily search with title, tag or text in any notes.</p>
-            <ul>
-              <li>Vue.js / v-model</li>
+              <li>Editing page was finished easily by two-data binding feature in Vue.js.</li>
+              <li>I have used "set" instead of "array" in JS to achieve the unique value when users added new repeated tags.</li>
             </ul>
           </div>
         </div>
@@ -142,28 +126,12 @@
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="text">
-            <p>The website is RWD in mobile device.</p>
+            <p>The website is RWD design</p>
             <ul>
-              <li>CSS / SASS</li>
-              <li>RWD</li>
+              <li>80% pure CSS to achieve RWD design.</li>
+              <li>All features on the large screen are also available on the mobile device.</li>
             </ul>
           </div>
-        </div>
-      </div>
-    </section>
-    <hr>
-    <section id="section_result">
-      <div class="row">
-        <div class="col-xs-12 col-md-5">
-          <h2>Learned</h2>
-        </div>
-        <div class="result col-xs-12 col-md-6">
-          <ul>
-            <li>Try to design the brief layout and bring a good UX finally.</li>
-            <li>Much familiar with npm install packages to finish a complete project.</li>
-            <li>The first time to use local storage application in the front end project. Therefore, users' notes or data will not disappear after browser refreshing.</li>
-            <li>A real backend database such as Firebase I want to intergrate to my note project with user authentication in the future.</li>
-          </ul>
         </div>
       </div>
     </section>
