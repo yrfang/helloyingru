@@ -277,7 +277,7 @@ hr {
 #section_detail .text p {
   margin-top: 20px;
   font-size: 24px;
-  line-height: 24px;
+  line-height: 30px;
   font-weight: bold;
 }
 /* line 219, ../scss/project-template.scss */
@@ -433,17 +433,18 @@ hr {
   #section_detail .text p {
     margin-top: 20px;
     font-size: 16px;
+    line-height: 20px;
   }
-  /* line 380, ../scss/project-template.scss */
+  /* line 381, ../scss/project-template.scss */
   #section_detail .text ul {
     margin-left: 20px;
     margin-right: 20px;
   }
-  /* line 384, ../scss/project-template.scss */
+  /* line 385, ../scss/project-template.scss */
   #section_detail .text ul li {
     font-size: 14px;
   }
-  /* line 389, ../scss/project-template.scss */
+  /* line 390, ../scss/project-template.scss */
   #section_detail .text a {
     font-size: 12px;
   }

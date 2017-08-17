@@ -8,7 +8,7 @@ html(lang='en')
     link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
     link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
     link(rel="stylesheet", href="../css/project-template.css")
-    title Taipei Typhoon Message Project | YR Fang
+    title Taipei Typhoon Information Website | YR Fang
     style(media="screen").
       .innerScreen {
         background-image: url('../image/taipei-typhoon/coverphoto-taipei-typhoon.png');
@@ -18,7 +18,7 @@ body
     section#section_title
       .row
         .col-xs-12.col-md-5
-          h2 Taipei Typhoon Message
+          h2 Taipei Typhoon Information
           h3 A Vue.js Project
           .tags
             ul
@@ -45,10 +45,11 @@ body
           h2 Qick Summary
         .summary.col-xs-12.col-md-6
           ul
-            li In order to implement a more complete project, I took <a href="https://quip.com/wFZYARR2o5uS">the typhoon information guidance</a> as a reference.
-            li A useful website for Taipei typhoon message project with government's open source data of the disaster.
-            li The first complete Vue.js side project I did with multiple components.
-            li I have fininsed with two parts. One is the table with the latest update of tyhpoon message. And the other one is the google map api connet with data.
+            li In order to implement in a "real" development workflow, I took <a href="https://quip.com/wFZYARR2o5uS" target="_blank">the typhoon information guidance</a> as a reference.
+            li I have learned how to build the Vue.js project with <a href="https://github.com/vuejs/vue-cli" target="_blank">vue-cli</a> tools and manage npm moduls.
+            li The website was built as single page, including two parts. One is information table and the other is power outage map.
+            li Data in the website was implemented from government's open source with <a href="https://github.com/imcvampire/vue-axios" target="_blank">vue-axios</a> instead of JQuery AJAX.
+            li The single page application was completed by <a href="https://router.vuejs.org/en/" target="_blank">vue-router</a>.
             li Currently, the website is available with GitPage and analzed with Google analysis.
     hr
     section#section_detail
@@ -62,12 +63,12 @@ body
             h3 Information Table
         .col-xs-12.col-md-6
           .text
-            p Latest message table with select form, sorted columns and pagination
+            p Latest information of typhoon in Taiepi
             ul
-              li Vue-cli
-              li Packages installed with npm
-              li Single page application with vue-router
-            //- a(href="#") View More
+              li Using data-binding of Vue.js framework to built a table with select form.
+              li Each column can be sorted with its heading row.
+              li The pagination was finished without any plugin.
+              li I was much familiar with vue component's attributes and its usage.
       .row.detail_row
         .col-xs-12.col-md-6
           .outer_container
@@ -75,35 +76,21 @@ body
             h3 Google Map
         .col-xs-12.col-md-6
           .text
-            p Google map of power outage in Taipei with select form
+            p Google map of power outage in Taipei
             ul
-              li Google map api connect
-              li Single page application with vue-router
-            //- a(href="#") View More
+              li I haved learned how to connect the google map API with ajax data.
+              li Data could be filter with differect district selet form in Taipei based on data-binding of Vue.js.
       .row.detail_row
         .col-xs-12.col-md-6
           .outer_container
             .display(style="background-image: url('../image/taipei-typhoon/feature-4-GA.png');")
-            h3 Google Analysis
+            h3 Google Analysis (GA)
         .col-xs-12.col-md-6
           .text
-            p Website with google analysis (GA)
+            p Website with GA
             ul
-              li GA libraray
-            //- a(href="#") View More
-    hr
-    section#section_result
-      .row
-        .col-xs-12.col-md-5
-          h2 Learned
-        .result.col-xs-12.col-md-6
-          ul
-            li Learn how to design usable code and components with Vue-cli in a "real" development workflow.
-            li Connecting to servers using vue-axios but jquery.
-            li The basic table with filtered, sorted features and pagination is the most powerful usage of Vue.js with its two-way data binding feature.
-            li Learn how to connect google map API with select form in different Taipei distrcts.
-            li Routing in a Vue.js Application to make a single page.
-            li Finally, I haved known how to deploy my finished appliction with build tools. 
+              li I have understand how to use GA on the specific website.
+              li Currently, I can inspect my website with GA to analysis my users' behavior.
     footer.backHome
       a(href="../index.html")
         span.fa.fa-angle-left
