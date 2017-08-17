@@ -233,6 +233,16 @@ hr {
         list-style: initial;
         text-align: left;
       }
+
+      a {
+        font-size: 20px;
+        color: #ff9737;
+        background-color: initial;
+        &:hover {
+          color: #3cc14d;
+          background-color: initial;
+        }
+      }
     }
 
     a {
