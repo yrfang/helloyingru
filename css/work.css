@@ -188,12 +188,43 @@ section#section_work .heading {
   }
   /* line 162, ../scss/work.scss */
   .project:before {
-    opacity: 0.5;
+    opacity: 0.7;
     filter: grayscale(0.5);
   }
-  /* line 167, ../scss/work.scss */
+  /* line 168, ../scss/work.scss */
+  .project:hover:before {
+    opacity: 0.7;
+  }
+  /* line 171, ../scss/work.scss */
+  .project:hover:after {
+    opacity: 0;
+    animation: none;
+  }
+  /* line 175, ../scss/work.scss */
+  .project:hover .project__name {
+    opacity: 1;
+    background-color: transparent;
+    color: #333;
+    animation: hoverNameProject 0.5s;
+    box-shadow: none;
+  }
+  /* line 184, ../scss/work.scss */
   .project .project__name {
     font-size: 18px;
+    opacity: 1;
+    position: relative;
+  }
+  /* line 190, ../scss/work.scss */
+  .project .project__name:after {
+    content: "";
+    opacity: 0.2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: rgba(255, 204, 51, 0.8);
+    width: 150px;
+    height: 80px;
+    padding: 10px 20px;
   }
 }

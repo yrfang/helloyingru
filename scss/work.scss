@@ -160,13 +160,45 @@ section#section_work {
     margin-bottom: 10px;
 
     &:before {
-      opacity: 0.5;
+      opacity: 0.7;
       filter: grayscale(0.5);
+    }
+
+    &:hover {
+      &:before {
+        opacity: 0.7;
+      }
+      &:after {
+        opacity: 0;
+        animation: none;
+      }
+      .project__name {
+        opacity: 1;
+        background-color: transparent;
+        color: #333;
+        animation: hoverNameProject 0.5s;
+        box-shadow: none;
+      }
     }
 
     .project__name {
       font-size: 18px;
-      background-color: rgba(#ffcc33, 0.8);
+      // background-color: rgba(#ffcc33, 0.8);
+      opacity: 1;
+      position: relative;
+
+      &:after {
+        content: "";
+        opacity: 0.2;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(#ffcc33, 0.8);
+        width: 150px;
+        height: 80px;
+        padding: 10px 20px;
+      }
     }
   }
 }
