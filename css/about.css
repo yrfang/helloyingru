@@ -14,46 +14,54 @@ section#section_about {
   width: 100%;
   height: 400px;
   background-image: url("../image/hi-3.png");
-  background-position: center bottom;
+  background-position: 40% bottom;
   background-size: 120%;
   opacity: 0.8;
 }
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 9, ../scss/about.scss */
   .screenCover .coverPhoto {
-    height: 340px;
+    height: 330px;
   }
 }
 /* line 23, ../scss/about.scss */
 .screenCover p.hello {
   position: absolute;
   top: 20%;
-  right: 35%;
+  left: 50%;
+  transform: translateX(-20%);
   text-align: left;
-  font-size: 42px;
+  font-size: 48px;
   font-weight: bold;
   line-height: 54px;
   letter-spacing: 2px;
-  color: #fcefdd;
+  color: #435599;
+  font-family: 'Sedgwick Ave', cursive;
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 23, ../scss/about.scss */
+  .screenCover p.hello {
+    font-size: 40px;
+  }
 }
 
-/* line 36, ../scss/about.scss */
+/* line 42, ../scss/about.scss */
 .heading {
   padding: 120px 30px 40px 30px;
 }
 
-/* line 42, ../scss/about.scss */
+/* line 48, ../scss/about.scss */
 .resume {
   padding: 0px 20px;
 }
 
-/* line 46, ../scss/about.scss */
+/* line 52, ../scss/about.scss */
 a:link, a:visited, a:hover {
   color: initial;
   text-decoration: none;
 }
 
-/* line 51, ../scss/about.scss */
+/* line 57, ../scss/about.scss */
 .iconContainer {
   text-align: center;
   cursor: pointer;
@@ -63,30 +71,30 @@ a:link, a:visited, a:hover {
   margin-right: auto;
   margin-bottom: 20px;
 }
-/* line 60, ../scss/about.scss */
+/* line 66, ../scss/about.scss */
 .iconContainer:hover {
   border: solid 1px rgba(255, 179, 71, 0.8);
   border-radius: 3px;
   box-sizing: border-box;
 }
-/* line 66, ../scss/about.scss */
+/* line 72, ../scss/about.scss */
 .iconContainer .imgIcon {
   width: 50px;
   height: 60px;
   margin: 0px;
 }
-/* line 72, ../scss/about.scss */
+/* line 78, ../scss/about.scss */
 .iconContainer h4.title {
   font-size: 24px;
   font-weight: bold;
 }
-/* line 77, ../scss/about.scss */
+/* line 83, ../scss/about.scss */
 .iconContainer h6.sub__title {
   font-size: 14px;
   margin-top: 8px;
 }
 
-/* line 85, ../scss/about.scss */
+/* line 91, ../scss/about.scss */
 .introduction {
   margin-top: 20px;
   padding-left: 40px;
@@ -94,71 +102,71 @@ a:link, a:visited, a:hover {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-/* line 92, ../scss/about.scss */
+/* line 98, ../scss/about.scss */
 .introduction p {
   font-size: 16px;
-  letter-spacing: 1.5px;
-  line-height: 20px;
+  letter-spacing: 1px;
+  line-height: 1.5;
   margin-bottom: 30px;
   text-align: justify;
 }
 
 @media screen and (max-width: 480px) {
-  /* line 104, ../scss/about.scss */
+  /* line 110, ../scss/about.scss */
   .iconContainer {
     width: 100px;
     height: 120px;
     padding: 10px 5px;
   }
-  /* line 109, ../scss/about.scss */
+  /* line 115, ../scss/about.scss */
   .iconContainer.left {
     margin-right: 0px;
   }
-  /* line 113, ../scss/about.scss */
+  /* line 119, ../scss/about.scss */
   .iconContainer.right {
     margin-left: 0px;
   }
-  /* line 117, ../scss/about.scss */
+  /* line 123, ../scss/about.scss */
   .iconContainer .imgIcon {
     width: 40px;
     height: 50px;
   }
-  /* line 122, ../scss/about.scss */
+  /* line 128, ../scss/about.scss */
   .iconContainer h4.title {
     font-size: 22px;
   }
-  /* line 126, ../scss/about.scss */
+  /* line 132, ../scss/about.scss */
   .iconContainer h6.sub__title {
     font-size: 10px;
   }
 
-  /* line 131, ../scss/about.scss */
+  /* line 137, ../scss/about.scss */
   .introduction {
     margin-top: 20px;
     padding: 20px;
   }
 
-  /* line 136, ../scss/about.scss */
+  /* line 142, ../scss/about.scss */
   section {
     margin-bottom: 40px;
   }
 
-  /* line 140, ../scss/about.scss */
+  /* line 146, ../scss/about.scss */
   .heading {
     padding: 80px 30px 40px 30px;
   }
 
-  /* line 145, ../scss/about.scss */
+  /* line 151, ../scss/about.scss */
   #section_about .resume {
     margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 480px) {
-  /* line 155, ../scss/about.scss */
+  /* line 161, ../scss/about.scss */
   .iconContainer.left {
     margin-right: 20px;
   }
-  /* line 159, ../scss/about.scss */
+  /* line 165, ../scss/about.scss */
   .iconContainer.right {
     margin-left: 20px;
   }

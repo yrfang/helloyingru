@@ -63,7 +63,7 @@ section#section_work .heading {
 }
 /* line 61, ../scss/work.scss */
 .project.project_5:before {
-  background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/AQNKPDGKR8.jpg");
+  background-image: url("../image/hello-ying-ru/coverphoto-hello.png");
 }
 /* line 65, ../scss/work.scss */
 .project:after {
@@ -213,6 +213,7 @@ section#section_work .heading {
     font-size: 18px;
     opacity: 1;
     position: relative;
+    color: #333;
   }
   /* line 190, ../scss/work.scss */
   .project .project__name:after {

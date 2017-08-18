@@ -59,7 +59,7 @@ section#section_work {
   }
 
   &.project_5:before {
-    background-image: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/AQNKPDGKR8.jpg");
+    background-image: url("../image/hello-ying-ru/coverphoto-hello.png");
   }
 
   &:after {
@@ -183,9 +183,9 @@ section#section_work {
 
     .project__name {
       font-size: 18px;
-      // background-color: rgba(#ffcc33, 0.8);
       opacity: 1;
       position: relative;
+      color: #333;
 
       &:after {
         content: "";

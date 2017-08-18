@@ -6,10 +6,10 @@
 @import "compass/reset";
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css?family=Merriweather");
+// @import url("https://fonts.googleapis.com/css?family=Merriweather");
 
 * {
-  font-family: 'Merriweather', serif, 微軟正黑體;
+  font-family: 'Lato', sans-serif, 微軟正黑體;
   // border: solid 1px black !important;
 }
 
@@ -108,6 +108,17 @@ html, body {
     font-size: 14px;
     letter-spacing: 1.5px;
     margin-top: 15px;
+  }
+}
+
+.specialPage {
+  position: absolute;
+  left: 20px;
+  top: initial;
+  bottom: 20px;
+  font-size: 12px;
+  a.special {
+    color: #ff9737;
   }
 }
 

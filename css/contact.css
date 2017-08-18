@@ -114,26 +114,27 @@ section#section_contact {
   /* line 99, ../scss/contact.scss */
   .contact {
     margin-bottom: 30px;
+    text-align: center;
   }
 
-  /* line 103, ../scss/contact.scss */
+  /* line 104, ../scss/contact.scss */
   #contact__form {
     margin-left: 0px;
   }
 }
 @media screen and (max-width: 844px) {
-  /* line 112, ../scss/contact.scss */
+  /* line 113, ../scss/contact.scss */
   .contact {
     margin-bottom: 30px;
   }
 
-  /* line 116, ../scss/contact.scss */
+  /* line 117, ../scss/contact.scss */
   #contact__form {
     margin-left: 0px;
   }
 }
 @media (min-width: 992px) {
-  /* line 123, ../scss/contact.scss */
+  /* line 124, ../scss/contact.scss */
   .contact {
     padding-left: 40px;
   }

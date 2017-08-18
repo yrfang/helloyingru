@@ -23,7 +23,7 @@ $(document).ready(function() {
   });
 
 
-  $(document).on('click', '#side-nav a', function(event){
+  $(document).on('click', '#side-nav li a', function(event){
       event.preventDefault();
       $('html, body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top
