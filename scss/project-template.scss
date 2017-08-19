@@ -236,6 +236,7 @@ hr {
         font-size: 20px;
         color: #ff9737;
         background-color: initial;
+        padding: 0px;
         &:hover {
           color: #3cc14d;
           background-color: initial;
@@ -383,10 +384,11 @@ hr {
         li {
           font-size: 14px;
         }
-      }
 
-      a {
-        font-size: 12px;
+        a {
+          font-size: 14px;
+          padding: 0px;
+        }
       }
     }
   }
