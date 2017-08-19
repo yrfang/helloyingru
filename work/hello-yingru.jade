@@ -1,0 +1,106 @@
+//output:hello-yingru.html
+
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet", href="../css/project-template.css")
+    title Hello, Ying Ru | YR Fang
+    style(media="screen").
+      .innerScreen {
+        background-image: url('../image/hello-ying-ru/coverphoto-hello.png');
+      }
+body
+  #app.container
+    section#section_title
+      .row
+        .col-xs-12.col-md-5
+          h2 Hello, Ying Ru
+          h3 A Portfolio Website
+          .tags
+            ul
+              li Jade / Pug
+              li Sass
+              li RWD
+              li UI
+              li JavaScript / JQuery
+          .links
+            a(href="https://yrfang.github.io/helloyingru/index.html" target="_blank") View Project
+            a(href="https://github.com/yrfang/helloyingru" target="_blank") View Github
+        .col-xs-12.col-md-6
+          .screen_container
+            .topper
+              .circle
+              .circle
+              .circle
+            .innerScreen
+    hr
+    section#section_summary
+      .row
+        .col-xs-12.col-md-5
+          h2 Qick Summary
+        .summary.col-xs-12.col-md-6
+          ul
+            li A brief website I have created to introduce my side project and what I have learned.
+            li I have organized the layout of a website to build my portfolio.
+            li Each side project can be view at home page and link to its case study page.
+            li At the bottom of my portfolio website, I have integrated to <a href="https://firebase.google.com/" target="_blank">Firebase</a>. Therefore, users can give me feedback when the finish the contact form.
+    hr
+    section#section_detail
+      .row
+        .col-xs-12.col-md-12
+          h2 Features
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/hello-ying-ru/coverphoto-hello.png');")
+            h3 Home Page
+        .col-xs-12.col-md-6
+          .text
+            p Portfolio home page
+            ul
+              li All side projects are available on the website.
+              li Side navigation was 90% pure CSS and RWD design without boostrap. Further, it could be easily scroll to any section by JQuery animation.
+              li 50% content was finished with the grid system of bootstrap. 50% content was used pure CSS to achieve RWD effect.
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/hello-ying-ru/feature1-quick-summary.png');")
+            h3 Case Study Page
+        .col-xs-12.col-md-6
+          .text
+            p Viewing each work on the case study page
+            ul
+              li I have designed customized tags with pure CSS to descript the skills and techniques I have used in each project.
+              li All explation and photos are also RWD on mobile design finished with pure CSS.
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/hello-ying-ru/');")
+            h3 Contact Form
+        .col-xs-12.col-md-6
+          .text
+            p Firebase integrate?
+            ul
+              li 
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/hello-ying-ru/feature2-rwd.png');")
+            h3 Mobile Application
+        .col-xs-12.col-md-6
+          .text
+            p RWD design
+            ul
+              li All features on the large screen are also available on the mobile device.
+              li The cover photo of home page is hidden on the mobile device and middle size screen in order to better user experience.
+    footer.backHome
+      a(href="../index.html")
+        span.fa.fa-angle-left
+        span.home HOME
+      
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")  
+  script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")

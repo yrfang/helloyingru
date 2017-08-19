@@ -433,7 +433,7 @@ hr {
   /* line 376, ../scss/project-template.scss */
   #section_detail .text p {
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 20px;
   }
   /* line 382, ../scss/project-template.scss */
@@ -443,7 +443,7 @@ hr {
   }
   /* line 386, ../scss/project-template.scss */
   #section_detail .text ul li {
-    font-size: 14px;
+    font-size: 16px;
   }
   /* line 390, ../scss/project-template.scss */
   #section_detail .text ul a {
