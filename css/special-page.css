@@ -68,4 +68,96 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 6, ../scss/special-page.scss */
 * {
   font-family: 'Lato', sans-serif, 微軟正黑體;
+  color: #555;
+  position: relative;
+}
+
+/* line 13, ../scss/special-page.scss */
+.container {
+  padding-bottom: 70px;
+}
+
+/* line 17, ../scss/special-page.scss */
+h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffcc33;
+}
+
+/* line 25, ../scss/special-page.scss */
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+/* line 30, ../scss/special-page.scss */
+p a {
+  font-size: 18px;
+  color: #ff9737;
+  text-decoration: none;
+}
+/* line 34, ../scss/special-page.scss */
+p a:hover {
+  color: #3cc14d;
+  text-decoration: none;
+}
+
+/* line 41, ../scss/special-page.scss */
+hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 46, ../scss/special-page.scss */
+.info {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* line 55, ../scss/special-page.scss */
+.backHome {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  padding: 8px 15px;
+}
+/* line 61, ../scss/special-page.scss */
+.backHome:hover {
+  border: solid 1px rgba(255, 204, 51, 0.5);
+  border-radius: 3px;
+  cursor: pointer;
+}
+/* line 65, ../scss/special-page.scss */
+.backHome:hover .home {
+  color: #000;
+}
+/* line 70, ../scss/special-page.scss */
+.backHome a {
+  text-decoration: none;
+  color: #999;
+}
+/* line 75, ../scss/special-page.scss */
+.backHome .fa {
+  font-size: 16px;
+  margin-right: 10px;
+}
+/* line 80, ../scss/special-page.scss */
+.backHome .home {
+  font-size: 14px;
+  color: #999;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 90, ../scss/special-page.scss */
+  h2 {
+    font-size: 24px;
+  }
+
+  /* line 94, ../scss/special-page.scss */
+  p, a {
+    font-size: 14px;
+  }
 }
