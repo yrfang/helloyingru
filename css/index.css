@@ -823,9 +823,14 @@ section#section_contact {
     line-height: 18px;
     letter-spacing: 1px;
   }
+
+  /* line 236, ../scss/index.scss */
+  .specialPage {
+    bottom: 30px;
+  }
 }
 @media screen and (min-width: 768px) {
-  /* line 238, ../scss/index.scss */
+  /* line 242, ../scss/index.scss */
   #content {
     width: calc(100vw - 210px);
     transform: translateX(210px);
