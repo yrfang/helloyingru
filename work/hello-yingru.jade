@@ -27,6 +27,7 @@ body
               li RWD
               li UI
               li JavaScript / JQuery
+              li Firebase API
           .links
             a(href="https://yrfang.github.io/helloyingru/index.html" target="_blank") View Project
             a(href="https://github.com/yrfang/helloyingru" target="_blank") View Github
@@ -47,7 +48,7 @@ body
             li A brief website I have created to introduce my side project and what I have learned.
             li I have organized the layout of a website to build my portfolio.
             li Each side project can be view at home page and link to its case study page.
-            li At the bottom of my portfolio website, I have integrated to <a href="https://firebase.google.com/" target="_blank">Firebase</a>. Therefore, users can give me feedback when the finish the contact form.
+            li At the bottom of my portfolio website, I have integrated to <a href="https://firebase.google.com/" target="_blank">Firebase</a>. Therefore, users can give me feedback when they finish the contact form.
     hr
     section#section_detail
       .row
@@ -79,13 +80,15 @@ body
       .row.detail_row
         .col-xs-12.col-md-6
           .outer_container
-            .display(style="background-image: url('../image/hello-ying-ru/');")
+            .display(style="background-image: url('../image/hello-ying-ru/feature3-contact-form.png');")
             h3 Contact Form
         .col-xs-12.col-md-6
           .text
-            p Firebase integrate?
+            p Backend with Firebase
             ul
-              li 
+              li The contact form was integrated with a database using Firebase.
+              li The form will tell the users the state after they submit it with a library of <a href="http://codeseven.github.io/toastr/" target="_blank">toastr</a>, a simple javascript toast notifications.
+              li I will dig deeper into Firebase and its security issue. 
       .row.detail_row
         .col-xs-12.col-md-6
           .outer_container
