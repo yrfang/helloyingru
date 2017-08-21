@@ -30,5 +30,30 @@ $(document).ready(function() {
       }, 500);
   });
 
+  //save contact
+  var ref = new Firebase("https://hello-ying-ru.firebaseio.com/");
+
+  const form = document.getElementById('contact__form');
+  const name = document.getElementById('name');
+  const email = document.getElementById('email');
+  const message = document.getElementById('message');
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    // console.log('hi');
+    if (name.value.trim() != '' && email.value != '' && message.value != '') {
+      ref.child('homePage_contact').push({
+        name: name.value,
+        email: email.value,
+        message: message.value,
+      });
+      // console.log('successfully');
+      toastr.success('Submitted successfully. Thank you!');
+      form.reset();
+    } else {
+      toastr.warning('Please fill the form!');
+      // alert('Please fill the form!');
+    }
+  });
 
 });
