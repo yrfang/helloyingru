@@ -59,8 +59,13 @@ section {
 
   a {
     color: #ff9737;
+    text-decoration: none;
     &:hover {
       color: #3cc14d;
+      text-decoration: none;
+    }
+    &:active, &:focus {
+      color: #ff9737;
       text-decoration: none;
     }
   }
