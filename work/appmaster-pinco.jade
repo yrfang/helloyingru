@@ -1,0 +1,51 @@
+//output:appmaster-pinco.html
+
+doctype
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+    link(rel="stylesheet", href="../css/project-template.css")
+    title Pinco Website | YR Fang
+    style(media="screen").
+      .innerScreen {
+        background-image: url('../image/appmaster-pinco/coverphoto-appmaster-pinco.png');
+      }
+      
+body
+  #app.container
+    section#section_title
+      .row
+        .col-xs-12.col-md-5
+          h2 Pinco Website
+          h3 A website built with React/Redux
+          .tags
+            ul
+              li React / Redux
+              li Webpack / Babel
+              li Sass
+              li RWD
+              li Server-side rendering
+              li DevTools
+          .links
+            //- a(href="https://yrfang.github.io/vuejs-localstorage-note/" target="_blank") View Project
+            //- a(href="https://github.com/yrfang/vuejs-localstorage-note" target="_blank") View Github
+          h6 © 2018 Appmaster All Rights Reserved
+        .col-xs-12.col-md-6
+          .screen_container
+            .topper
+              .circle
+              .circle
+              .circle
+            .innerScreen
+    hr
+    section#section_summary
+      .row
+        .col-xs-12.col-md-5
+          h2 Qick Summary
+        .summary.col-xs-12.col-md-6
+          ul
+            li A platform website, which provides services for users to find their interested sport courses or coaches.
+    hr
