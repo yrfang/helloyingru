@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/project-template.css">
-    <title>Pinco Website | YR Fang</title>
+    <title>Pinco品刻 Website | YR Fang</title>
     <style media="screen">
       .innerScreen {
         background-image: url('../image/appmaster-pinco/coverphoto-appmaster-pinco.png');
@@ -24,12 +24,12 @@
           <h3>A website built with React/Redux</h3>
           <div class="tags">
             <ul>
-              <li>React / Redux</li>
+              <li>React.js / Redux</li>
+              <li>Immutable.js</li>
+              <li>React-Router</li>
               <li>Webpack / Babel</li>
               <li>Sass</li>
               <li>RWD</li>
-              <li>Server-side rendering</li>
-              <li>DevTools</li>
             </ul>
           </div>
           <div class="links">
@@ -56,11 +56,144 @@
         </div>
         <div class="summary col-xs-12 col-md-6">
           <ul>
-            <li>A platform website, which provides services for users to find their interested sport courses or coaches.</li>
+            <li>A website platform, which provides services for users to find their interested sport courses, coaches or places.</li>
+            <li>Using React.js and React-router to build the website view.</li>
+            <li>Using Redux with immutable format to manage states and props between each container.</li>
+            <li>Familiar with backend API communication and connection.</li>
+            <li>Experienced in Google map, Facebook login, Third-Party Payment and etc.</li>
           </ul>
         </div>
       </div>
     </section>
     <hr>
+    <section id="section_detail">
+      <div class="row">
+        <div class="col-xs-12 col-md-12">
+          <h2>Features</h2>
+        </div>
+      </div>
+      <div class="row detail_row">
+        <div class="col-xs-12 col-md-6">
+          <div class="outer_container">
+            <div style="background-image: url('../image/appmaster-pinco/feature1-homepage.png');" class="display"></div>
+            <h3>Home Page</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="text">
+            <p>Homepage with about us section</p>
+            <ul>
+              <li>Users can see some new course information in homepage.</li>
+              <li>Users can also choose their interested course to see the detailed info about the course.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row detail_row">
+        <div class="col-xs-12 col-md-6">
+          <div class="outer_container">
+            <div style="background-image: url('../image/appmaster-pinco/feature2-course-search.png');" class="display"></div>
+            <h3>Course Category Page</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="text">
+            <p>Viewing different customized searching condition for courses</p>
+            <ul>
+              <li>Using the <a href="https://react.semantic-ui.com/introduction" target="_blank">React Semantic UI</a> to implement time and category dropdown menu.</li>
+              <li>Searching courses by time, course category or keywords are all available.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row detail_row">
+        <div class="col-xs-12 col-md-6">
+          <div class="outer_container">
+            <div style="background-image: url('../image/appmaster-pinco/feature3-course-info.png');" class="display"></div>
+            <h3>Course Detailed Page</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="text">
+            <p>Viewing cuorse detailed information with booked state</p>
+            <ul>
+              <li>Viewing course information such as course's introduction, location and coach's info...etc.</li>
+              <li>A booked button showing user's booked state.</li>
+              <li>If course's booked state is available, user can book can get payment page with redirect to <a href="https://www.spgateway.com/" target="_blank">Spgateway service</a>.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row detail_row">
+        <div class="col-xs-12 col-md-6">
+          <div class="outer_container">
+            <div style="background-image: url('../image/appmaster-pinco/feature4-member-page.png');" class="display"></div>
+            <h3>Member Login</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="text">
+            <p>Email or Facebook login</p>
+            <ul>
+              <li>Pinco website has its own member management system, including third-party social login such as Facebook.</li>
+              <li>Pinco members can login to view user's booked recording lists.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row detail_row">
+        <div class="col-xs-12 col-md-6">
+          <div class="outer_container">
+            <div style="background-image: url('../image/appmaster-pinco/feature5-member-info.png');" class="display"></div>
+            <h3>Member Info Page</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="text">
+            <p>Member info can be saved after modifying</p>
+            <ul>
+              <li>Pinco member can modified some user's information, such as cover photo, birthday, password...etc.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row detail_row">
+        <div class="col-xs-12 col-md-6">
+          <div class="outer_container">
+            <div style="background-image: url('../image/appmaster-pinco/feature6-member-records.png');" class="display"></div>
+            <h3>Member Records Page</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="text">
+            <p>Member can view his/her booked recording lists</p>
+            <ul>
+              <li>Viewing member's booked transation information.</li>
+              <li>There are five transaction type of tabs can be filtered in recording page.</li>
+              <li>All transaction list can be furthermore viewed in transaction page.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row detail_row">
+        <div class="col-xs-12 col-md-6">
+          <div class="outer_container">
+            <div style="background-image: url('../image/appmaster-pinco/feature7-rwd.png');" class="display"></div>
+            <h3>Desktop/Mobile Application</h3>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <div class="text">
+            <p>RWD</p>
+            <ul>
+              <li>All features are available on desktop, pad, or mobile devices.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="backHome"><a href="../index.html"><span class="fa fa-angle-left"></span><span class="home">HOME</span></a></footer>
   </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"> </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>

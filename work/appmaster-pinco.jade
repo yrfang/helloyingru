@@ -8,7 +8,7 @@ html(lang='en')
     link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css")
     link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
     link(rel="stylesheet", href="../css/project-template.css")
-    title Pinco Website | YR Fang
+    title Pinco品刻 Website | YR Fang
     style(media="screen").
       .innerScreen {
         background-image: url('../image/appmaster-pinco/coverphoto-appmaster-pinco.png');
@@ -23,12 +23,12 @@ body
           h3 A website built with React/Redux
           .tags
             ul
-              li React / Redux
+              li React.js / Redux
+              li Immutable.js
+              li React-Router
               li Webpack / Babel
               li Sass
               li RWD
-              li Server-side rendering
-              li DevTools
           .links
             //- a(href="https://yrfang.github.io/vuejs-localstorage-note/" target="_blank") View Project
             //- a(href="https://github.com/yrfang/vuejs-localstorage-note" target="_blank") View Github
@@ -47,5 +47,97 @@ body
           h2 Qick Summary
         .summary.col-xs-12.col-md-6
           ul
-            li A platform website, which provides services for users to find their interested sport courses or coaches.
+            li A website platform, which provides services for users to find their interested sport courses, coaches or places.
+            li Using React.js and React-router to build the website view.
+            li Using Redux with immutable format to manage states and props between each container.
+            li Familiar with backend API communication and connection.
+            li Experienced in Google map, Facebook login, Third-Party Payment and etc.
     hr
+    section#section_detail
+      .row
+        .col-xs-12.col-md-12
+          h2 Features
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/appmaster-pinco/feature1-homepage.png');")
+            h3 Home Page
+        .col-xs-12.col-md-6
+          .text
+            p Homepage with about us section
+            ul
+              li Users can see some new course information in homepage.
+              li Users can also choose their interested course to see the detailed info about the course.
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/appmaster-pinco/feature2-course-search.png');")
+            h3 Course Category Page
+        .col-xs-12.col-md-6
+          .text
+            p Viewing different customized searching condition for courses
+            ul
+              li Using the <a href="https://react.semantic-ui.com/introduction" target="_blank">React Semantic UI</a> to implement time and category dropdown menu.
+              li Searching courses by time, course category or keywords are all available.
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/appmaster-pinco/feature3-course-info.png');")
+            h3 Course Detailed Page
+        .col-xs-12.col-md-6
+          .text
+            p Viewing cuorse detailed information with booked state
+            ul
+              li Viewing course information such as course's introduction, location and coach's info...etc.
+              li A booked button showing user's booked state.
+              li If course's booked state is available, user can book can get payment page with redirect to <a href="https://www.spgateway.com/" target="_blank">Spgateway service</a>.
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/appmaster-pinco/feature4-member-page.png');")
+            h3 Member Login
+        .col-xs-12.col-md-6
+          .text
+            p Email or Facebook login
+            ul
+              li Pinco website has its own member management system, including third-party social login such as Facebook.
+              li Pinco members can login to view user's booked recording lists.
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/appmaster-pinco/feature5-member-info.png');")
+            h3 Member Info Page
+        .col-xs-12.col-md-6
+          .text
+            p Member info can be saved after modifying
+            ul
+              li Pinco member can modified some user's information, such as cover photo, birthday, password...etc.
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/appmaster-pinco/feature6-member-records.png');")
+            h3 Member Records Page
+        .col-xs-12.col-md-6
+          .text
+            p Member can view his/her booked recording lists
+            ul
+              li Viewing member's booked transation information.
+              li There are five transaction type of tabs can be filtered in recording page.
+              li All transaction list can be furthermore viewed in transaction page.
+      .row.detail_row
+        .col-xs-12.col-md-6
+          .outer_container
+            .display(style="background-image: url('../image/appmaster-pinco/feature7-rwd.png');")
+            h3 Desktop/Mobile Application
+        .col-xs-12.col-md-6
+          .text
+            p RWD
+            ul
+              li All features are available on desktop, pad, or mobile devices.
+    footer.backHome
+      a(href="../index.html")
+        span.fa.fa-angle-left
+        span.home HOME
+
+  script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js")  
+  script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js")

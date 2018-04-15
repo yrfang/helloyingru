@@ -66,6 +66,10 @@ section#section_work .heading {
   background-image: url("../image/hello-ying-ru/coverphoto-hello.png");
 }
 /* line 65, ../scss/work.scss */
+.project.project_6:before {
+  background-image: url("../image/appmaster-pinco/coverphoto-appmaster-pinco.png");
+}
+/* line 69, ../scss/work.scss */
 .project:after {
   content: "";
   position: absolute;
@@ -77,17 +81,17 @@ section#section_work .heading {
   border: solid 6px #ffcc33;
   opacity: 0;
 }
-/* line 78, ../scss/work.scss */
+/* line 82, ../scss/work.scss */
 .project:hover:before {
   opacity: 1;
   filter: grayscale(0);
 }
-/* line 82, ../scss/work.scss */
+/* line 86, ../scss/work.scss */
 .project:hover:after {
   opacity: 1;
   animation: hoverBorderProject 0.5s;
 }
-/* line 86, ../scss/work.scss */
+/* line 90, ../scss/work.scss */
 .project:hover .project__name {
   background-color: #ffcc33;
   color: #fff;
@@ -95,7 +99,7 @@ section#section_work .heading {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   animation: hoverNameProject 0.5s;
 }
-/* line 95, ../scss/work.scss */
+/* line 99, ../scss/work.scss */
 .project .project__name {
   font-size: 18px;
   font-weight: bold;
@@ -155,12 +159,12 @@ section#section_work .heading {
   }
 }
 @media screen and (max-width: 844px) {
-  /* line 131, ../scss/work.scss */
+  /* line 135, ../scss/work.scss */
   .section__row {
     margin-bottom: 0px;
   }
 
-  /* line 135, ../scss/work.scss */
+  /* line 139, ../scss/work.scss */
   .project {
     width: calc(100% - 10px);
     height: 140px;
@@ -168,39 +172,39 @@ section#section_work .heading {
   }
 }
 @media screen and (max-width: 992px) {
-  /* line 144, ../scss/work.scss */
+  /* line 148, ../scss/work.scss */
   .project {
     width: calc(100% - 10px);
     height: 150px;
   }
 }
 @media screen and (max-width: 480px) {
-  /* line 153, ../scss/work.scss */
+  /* line 157, ../scss/work.scss */
   .section__row {
     margin-bottom: 0px;
   }
 
-  /* line 157, ../scss/work.scss */
+  /* line 161, ../scss/work.scss */
   .project {
     width: 100%;
     height: 120px;
     margin-bottom: 10px;
   }
-  /* line 162, ../scss/work.scss */
+  /* line 166, ../scss/work.scss */
   .project:before {
     opacity: 0.7;
     filter: grayscale(0.5);
   }
-  /* line 168, ../scss/work.scss */
+  /* line 172, ../scss/work.scss */
   .project:hover:before {
     opacity: 0.7;
   }
-  /* line 171, ../scss/work.scss */
+  /* line 175, ../scss/work.scss */
   .project:hover:after {
     opacity: 0;
     animation: none;
   }
-  /* line 175, ../scss/work.scss */
+  /* line 179, ../scss/work.scss */
   .project:hover .project__name {
     opacity: 1;
     background-color: transparent;
@@ -208,14 +212,14 @@ section#section_work .heading {
     animation: hoverNameProject 0.5s;
     box-shadow: none;
   }
-  /* line 184, ../scss/work.scss */
+  /* line 188, ../scss/work.scss */
   .project .project__name {
     font-size: 18px;
     opacity: 1;
     position: relative;
     color: #333;
   }
-  /* line 190, ../scss/work.scss */
+  /* line 194, ../scss/work.scss */
   .project .project__name:after {
     content: "";
     opacity: 0.2;
